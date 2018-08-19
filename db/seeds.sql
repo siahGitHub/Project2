@@ -1,6 +1,6 @@
-INSERT INTO storydb.verbs (text, alt_present, past, progressive, genre_id)
-VALUES("run", "runs", "ran", "running","action");
-INSERT INTO storydb.verbs (text, alt_present, past, progressive, genre_id)
-VALUES("run", "runs", "ran", "running","fantasy");
-INSERT INTO storydb.verbs (text, alt_present, past, progressive, genre_id)
-VALUES("run", "runs", "ran", "running","horror");
+INSERT INTO storydb.verbs (text, alt_present, past, progressive, genre_id, createdAt, updatedAt)
+VALUES("run", "runs", "ran", "running","action", sysdate(),sysdate());
+INSERT INTO storydb.verbs (text, alt_present, past, progressive, genre_id, createdAt, updatedAt)
+VALUES("run", "runs", "ran", "running","fantasy", sysdate(), sysdate());
+INSERT INTO storydb.verbs (text, alt_present, past, progressive, genre_id, createdAt, updatedAt)
+VALUES("run", "runs", "ran", "running","horror", sysdate(), sysdate());

@@ -13,6 +13,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static("public"));
 
+
 // Handlebars
 app.engine(
   "handlebars",
@@ -23,9 +24,10 @@ app.engine(
 app.set("view engine", "handlebars");
 
 // Routes
-
-require("./routes/snippet-api-routes")(app);
 require("./routes/htmlRoutes")(app);
+require("./routes/snippet-api-routes")(app);
+require("./routes/user-api-routes")(app);
+require("./routes/verb-api-routes")(app);
 
 var syncOptions = { force: false };
 
