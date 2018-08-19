@@ -28,6 +28,7 @@ require("./routes/htmlRoutes")(app);
 require("./routes/snippet-api-routes")(app);
 require("./routes/user-api-routes")(app);
 require("./routes/verb-api-routes")(app);
+require("./routes/story-api-routes")(app);
 
 var syncOptions = { force: false };
 

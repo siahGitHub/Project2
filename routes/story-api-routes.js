@@ -1,7 +1,7 @@
 var db = require("../models");
 
 module.exports = function(app) {
-  // Get all Snippets
+  // Get all Stories
   app.get("/api/stories", function(req, res) {
     db.Story.findAll({}).then(function(dbStory) {
       res.json(dbStory);
@@ -34,6 +34,7 @@ module.exports = function(app) {
   app.post("/api/stories", function(req, res) {
     db.Story.create(req.body).then(function(dbStory) {
       res.json(dbStory);
+      console.log(dbStory);
     });
   });
 
