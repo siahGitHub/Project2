@@ -4,17 +4,8 @@ module.exports = function(sequelize, DataTypes) {
         type: DataTypes.STRING,
         allowNull: false
       },
-      alt_present: {
-        type: DataTypes.STRING,
-        allowNull: false
-      },
-      past: {
-        type: DataTypes.STRING,
-        allowNull: false
-      },
-      progressive: {
-        type: DataTypes.STRING,
-        allowNull: false
+      alt_text: {
+        type: DataTypes.STRING
       },
       genre_id: {
         type: DataTypes.STRING

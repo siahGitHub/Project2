@@ -1,0 +1,128 @@
+
+#sidebar {
+    background: #A47727 ;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+#dismiss:hover {
+    color: #A47727;
+    background: #fff;
+}
+#sidebar .sidebar-header {
+    background: #A47727;
+    padding: 20px;
+}
+ul ul a {
+    background: #A47727;
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+}
+a.download {
+    background: #fff;
+    color: #A47727;
+}
+#sidebar ul li.active>a,
+    a[aria-expanded="true"] {
+    background: #A47727;
+    color: #fff;
+}
+a.article,
+a.article:hover {
+    background: #A47727 !important;
+    color: #fff !important;
+}
+#top-nav{
+  background-color:#A47727;
+}
+.sign-in {
+  border:none;
+  background-color:#A47727;
+  color: white;
+}
+#sidebar ul.components {
+    border-bottom: 1px solid #6d3710;
+    padding: 20px 0;
+}
+#sidebar ul li a:hover {
+    color: #6d3710;
+    background: #fff;
+}
+
+
+
+#sidebar.active {
+    left: 0;
+}
+#dismiss {
+    /* background: #A47727; */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top:0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+}
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+#sidebar a,
+    #sidebar a:hover,
+        #sidebar a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+.dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:#c40e0e;
+}
+
+@media screen and (min-width: 480px) {
+    /* #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;} */
+}
