@@ -8,7 +8,7 @@ module.exports = function(app) {
     });
   });
 
-// Get a story by genre id
+// Get a verbs by genre id
 app.get("/api/verbs/genre/:id", function(req, res) {
     db.Verb.findOne({
       where: {
@@ -19,14 +19,14 @@ app.get("/api/verbs/genre/:id", function(req, res) {
     });
   });
 
-  // Create a new story
+  // Create a new verb
   app.post("/api/verbs", function(req, res) {
     db.Verb.create(req.body).then(function(dbStory) {
       res.json(dbStory);
     });
   });
 
-  // Delete a story by id
+  // Delete a verb by id
   app.delete("/api/verbs/:id", function(req, res) {
     db.Verb.destroy({ where: { id: req.params.id } }).then(function(dbStory) {
       res.json(dbStory);

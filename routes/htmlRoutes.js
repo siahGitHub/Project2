@@ -3,12 +3,12 @@ var db = require("../models");
 module.exports = function(app) {
   // Load index page
   app.get("/", function(req, res) {
-    db.Verb.findAll({}).then(function(dbVerbs) {
+    db.Genre.findAll({}).then(function(dbGenres) {
       res.render("index", {
         msg: "Welcome!",
-        examples: dbVerbs
+        examples:dbGenres
       });
-      console.log(dbVerbs);
+      console.log(dbGenres);
     });
   });
 

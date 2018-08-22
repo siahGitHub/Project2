@@ -1,9 +1,11 @@
 // Get references to page elements
-var $exampleText = $("#example-text");
+var $genreSel1 = $("#genreSel1");
 var $exampleDescription = $("#example-description");
 var $submitBtn = $("#submit");
 var $exampleList = $("#example-list");
-
+var $stories = $("#stories");
+var $startBtn = $("#start-btn");
+console.log("page loaded");
 // The API object contains methods for each kind of request we'll make
 var API = {
   saveExample: function(example) {
@@ -12,13 +14,14 @@ var API = {
         "Content-Type": "application/json"
       },
       type: "POST",
-      url: "api/examples",
-      data: JSON.stringify(example)
+      url: "/api/stories/genre/"+example
+      //data: JSON.stringify(example)
     });
   },
-  getExamples: function() {
+  getExamples: function(example) {
     return $.ajax({
-      url: "api/examples",
+      //url: "api/examples",
+      url: "/api/stories/genre/"+example,
       type: "GET"
     });
   },
@@ -46,7 +49,7 @@ var refreshExamples = function() {
         .append($a);
 
       var $button = $("<button>")
-        .addClass("btn btn-danger float-right delete")
+        .addClass("btn btn-success float-right")
         .text("ｘ");
 
       $li.append($button);
@@ -63,23 +66,38 @@ var refreshExamples = function() {
 // Save the new example to the db and refresh the list
 var handleFormSubmit = function(event) {
   event.preventDefault();
-
+  console.log("checkpoint");
   var example = {
-    text: $exampleText.val().trim(),
-    description: $exampleDescription.val().trim()
+    text: $genreSel1.val().trim()
+    //description: $exampleDescription.val().trim()
   };
+ var genre =  $genreSel1.val().trim();
 
-  if (!(example.text && example.description)) {
-    alert("You must enter an example text and description!");
+  if (!(example.text)) {
+    alert("You must select a genre!");
     return;
   }
-
+/*
   API.saveExample(example).then(function() {
     refreshExamples();
   });
+*/
+console.log(genre);
+  API.getExamples(genre).then(function (data) {
+    console.log(data);
+    var $h2 = $("<h2>")
+      .text(data.title);
+    $stories.append($h2);
+    var $button = $("<button>")
+        .addClass("btn btn-success float-right delete")
+        .text("Start Game");
 
-  $exampleText.val("");
-  $exampleDescription.val("");
+      $startBtn.append($button);
+  });
+    //refreshExamples();
+  
+  //$exampleText.val("");
+  //$exampleDescription.val("");
 };
 
 // handleDeleteBtnClick is called when an example's delete button is clicked

@@ -1,6 +1,24 @@
 <div>{{msg}}</div>
-<ul>
-{{#each examples }}
-  <li>{{genre_id}}</li>
-{{/each}}
-</ul>
+
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    <form class="clearfix mb-4">
+      <div class="form-group">
+        <label for="sel1">Select Genre:</label>
+        <select class="form-control" id="genreSel1">
+          {{#each examples }}
+          <option value={{id}}>{{genre}}</option>
+          {{/each}}
+        </select>
+        <button id="submit" class="btn btn-primary float-right">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+<div class="row">
+  <div id="stories"></div>
+  <div id="start-btn"></div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/js/index.js"></script>
