@@ -1,7 +1,7 @@
 {
   "development": {
-    "username": "siahDB",
-    "password": "siahDB#1623",
+    "username": "root",
+    "password": "Sh33shnats",
     "database": "storydb",
     "host": "127.0.0.1",
     "port": 3306,
