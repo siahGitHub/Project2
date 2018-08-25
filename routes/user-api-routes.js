@@ -20,10 +20,10 @@ module.exports = function(app) {
   });
 
   // Get a user by email
-  app.get("/api/users/:id", function(req, res) {
+  app.get("/api/users/:email", function(req, res) {
     db.User.findOne({
       where: {
-        email: req.params.id
+        email: req.params.email
       }
     }).then(function(dbUser) {
       res.json(dbUser);
@@ -31,7 +31,7 @@ module.exports = function(app) {
   });
 
   // Delete a user by id
-  app.delete("/api/stories/:id", function(req, res) {
+  app.delete("/api/users/:id", function(req, res) {
     db.User.destroy({ where: { id: req.params.id } }).then(function(dbUser) {
       res.json(dbUser);
     });
