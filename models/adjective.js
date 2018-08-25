@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-    var Adj = sequelize.define("Adjective", {
+    var Adjective = sequelize.define("Adjective", {
       text: {
         type: DataTypes.STRING,
         allowNull: false
@@ -14,5 +14,5 @@ module.exports = function(sequelize, DataTypes) {
       createdAt: DataTypes.DATE,
       updatedAt: DataTypes.DATE
     });
-    return Adj;
+    return Adjective;
 }

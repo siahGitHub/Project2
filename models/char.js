@@ -1,6 +1,6 @@
 module.exports = function(sequelize, DataTypes) {
     var Char = sequelize.define("Char", {
-      name: {
+      text: {
         type: DataTypes.STRING,
         allowNull: false
       },
@@ -9,8 +9,7 @@ module.exports = function(sequelize, DataTypes) {
         allowNull: false
       },
       gender:{
-        type: DataTypes.STRING,
-        allowNull: false
+        type: DataTypes.STRING
       },
       // Timestamps
       createdAt: DataTypes.DATE,
