@@ -1,1896 +1,1896 @@
 USE storydb;
 
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mary', 'her',sysdate(),sysdate());
+VALUES ('Mary', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Patricia', 'her',sysdate(),sysdate());
+VALUES ('Patricia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Linda', 'her',sysdate(),sysdate());
+VALUES ('Linda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Barbara', 'her',sysdate(),sysdate());
+VALUES ('Barbara', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elizabeth', 'her',sysdate(),sysdate());
+VALUES ('Elizabeth', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jennifer', 'her',sysdate(),sysdate());
+VALUES ('Jennifer', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Maria', 'her',sysdate(),sysdate());
+VALUES ('Maria', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Susan', 'her',sysdate(),sysdate());
+VALUES ('Susan', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Margaret', 'her',sysdate(),sysdate());
+VALUES ('Margaret', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dorothy', 'her',sysdate(),sysdate());
+VALUES ('Dorothy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lisa', 'her',sysdate(),sysdate());
+VALUES ('Lisa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nancy', 'her',sysdate(),sysdate());
+VALUES ('Nancy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Karen', 'her',sysdate(),sysdate());
+VALUES ('Karen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Betty', 'her',sysdate(),sysdate());
+VALUES ('Betty', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Helen', 'her',sysdate(),sysdate());
+VALUES ('Helen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sandra', 'her',sysdate(),sysdate());
+VALUES ('Sandra', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Donna', 'her',sysdate(),sysdate());
+VALUES ('Donna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carol', 'her',sysdate(),sysdate());
+VALUES ('Carol', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ruth', 'her',sysdate(),sysdate());
+VALUES ('Ruth', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sharon', 'her',sysdate(),sysdate());
+VALUES ('Sharon', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Michelle', 'her',sysdate(),sysdate());
+VALUES ('Michelle', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Laura', 'her',sysdate(),sysdate());
+VALUES ('Laura', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sarah', 'her',sysdate(),sysdate());
+VALUES ('Sarah', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kimberly', 'her',sysdate(),sysdate());
+VALUES ('Kimberly', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Deborah', 'her',sysdate(),sysdate());
+VALUES ('Deborah', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jessica', 'her',sysdate(),sysdate());
+VALUES ('Jessica', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shirley', 'her',sysdate(),sysdate());
+VALUES ('Shirley', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cynthia', 'her',sysdate(),sysdate());
+VALUES ('Cynthia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Angela', 'her',sysdate(),sysdate());
+VALUES ('Angela', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Melissa', 'her',sysdate(),sysdate());
+VALUES ('Melissa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brenda', 'her',sysdate(),sysdate());
+VALUES ('Brenda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Amy', 'her',sysdate(),sysdate());
+VALUES ('Amy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Anna', 'her',sysdate(),sysdate());
+VALUES ('Anna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rebecca', 'her',sysdate(),sysdate());
+VALUES ('Rebecca', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Virginia', 'her',sysdate(),sysdate());
+VALUES ('Virginia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kathleen', 'her',sysdate(),sysdate());
+VALUES ('Kathleen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Pamela', 'her',sysdate(),sysdate());
+VALUES ('Pamela', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Martha', 'her',sysdate(),sysdate());
+VALUES ('Martha', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Debra', 'her',sysdate(),sysdate());
+VALUES ('Debra', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Amanda', 'her',sysdate(),sysdate());
+VALUES ('Amanda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Stephanie', 'her',sysdate(),sysdate());
+VALUES ('Stephanie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carolyn', 'her',sysdate(),sysdate());
+VALUES ('Carolyn', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Christine', 'her',sysdate(),sysdate());
+VALUES ('Christine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marie', 'her',sysdate(),sysdate());
+VALUES ('Marie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Janet', 'her',sysdate(),sysdate());
+VALUES ('Janet', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Catherine', 'her',sysdate(),sysdate());
+VALUES ('Catherine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Frances', 'her',sysdate(),sysdate());
+VALUES ('Frances', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ann', 'her',sysdate(),sysdate());
+VALUES ('Ann', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joyce', 'her',sysdate(),sysdate());
+VALUES ('Joyce', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Diane', 'her',sysdate(),sysdate());
+VALUES ('Diane', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alice', 'her',sysdate(),sysdate());
+VALUES ('Alice', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Julie', 'her',sysdate(),sysdate());
+VALUES ('Julie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Heather', 'her',sysdate(),sysdate());
+VALUES ('Heather', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Teresa', 'her',sysdate(),sysdate());
+VALUES ('Teresa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Doris', 'her',sysdate(),sysdate());
+VALUES ('Doris', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gloria', 'her',sysdate(),sysdate());
+VALUES ('Gloria', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Evelyn', 'her',sysdate(),sysdate());
+VALUES ('Evelyn', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cheryl', 'her',sysdate(),sysdate());
+VALUES ('Cheryl', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mildred', 'her',sysdate(),sysdate());
+VALUES ('Mildred', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Katherine', 'her',sysdate(),sysdate());
+VALUES ('Katherine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joan', 'her',sysdate(),sysdate());
+VALUES ('Joan', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ashley', 'her',sysdate(),sysdate());
+VALUES ('Ashley', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Judith', 'her',sysdate(),sysdate());
+VALUES ('Judith', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rose', 'her',sysdate(),sysdate());
+VALUES ('Rose', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Janice', 'her',sysdate(),sysdate());
+VALUES ('Janice', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nicole', 'her',sysdate(),sysdate());
+VALUES ('Nicole', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Judy', 'her',sysdate(),sysdate());
+VALUES ('Judy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Christina', 'her',sysdate(),sysdate());
+VALUES ('Christina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kathy', 'her',sysdate(),sysdate());
+VALUES ('Kathy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Theresa', 'her',sysdate(),sysdate());
+VALUES ('Theresa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Beverly', 'her',sysdate(),sysdate());
+VALUES ('Beverly', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Denise', 'her',sysdate(),sysdate());
+VALUES ('Denise', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tammy', 'her',sysdate(),sysdate());
+VALUES ('Tammy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Irene', 'her',sysdate(),sysdate());
+VALUES ('Irene', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jane', 'her',sysdate(),sysdate());
+VALUES ('Jane', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lori', 'her',sysdate(),sysdate());
+VALUES ('Lori', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rachel', 'her',sysdate(),sysdate());
+VALUES ('Rachel', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marilyn', 'her',sysdate(),sysdate());
+VALUES ('Marilyn', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Andrea', 'her',sysdate(),sysdate());
+VALUES ('Andrea', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kathryn', 'her',sysdate(),sysdate());
+VALUES ('Kathryn', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Louise', 'her',sysdate(),sysdate());
+VALUES ('Louise', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sara', 'her',sysdate(),sysdate());
+VALUES ('Sara', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Anne', 'her',sysdate(),sysdate());
+VALUES ('Anne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jacqueline', 'her',sysdate(),sysdate());
+VALUES ('Jacqueline', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wanda', 'her',sysdate(),sysdate());
+VALUES ('Wanda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bonnie', 'her',sysdate(),sysdate());
+VALUES ('Bonnie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Julia', 'her',sysdate(),sysdate());
+VALUES ('Julia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ruby', 'her',sysdate(),sysdate());
+VALUES ('Ruby', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lois', 'her',sysdate(),sysdate());
+VALUES ('Lois', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tina', 'her',sysdate(),sysdate());
+VALUES ('Tina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Phyllis', 'her',sysdate(),sysdate());
+VALUES ('Phyllis', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Norma', 'her',sysdate(),sysdate());
+VALUES ('Norma', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Paula', 'her',sysdate(),sysdate());
+VALUES ('Paula', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Diana', 'her',sysdate(),sysdate());
+VALUES ('Diana', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Annie', 'her',sysdate(),sysdate());
+VALUES ('Annie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lillian', 'her',sysdate(),sysdate());
+VALUES ('Lillian', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Emily', 'her',sysdate(),sysdate());
+VALUES ('Emily', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Peggy', 'her',sysdate(),sysdate());
+VALUES ('Peggy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Crystal', 'her',sysdate(),sysdate());
+VALUES ('Crystal', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gladys', 'her',sysdate(),sysdate());
+VALUES ('Gladys', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rita', 'her',sysdate(),sysdate());
+VALUES ('Rita', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dawn', 'her',sysdate(),sysdate());
+VALUES ('Dawn', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Connie', 'her',sysdate(),sysdate());
+VALUES ('Connie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Florence', 'her',sysdate(),sysdate());
+VALUES ('Florence', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Edna', 'her',sysdate(),sysdate());
+VALUES ('Edna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tiffany', 'her',sysdate(),sysdate());
+VALUES ('Tiffany', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carmen', 'her',sysdate(),sysdate());
+VALUES ('Carmen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rosa', 'her',sysdate(),sysdate());
+VALUES ('Rosa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cindy', 'her',sysdate(),sysdate());
+VALUES ('Cindy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Grace', 'her',sysdate(),sysdate());
+VALUES ('Grace', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wendy', 'her',sysdate(),sysdate());
+VALUES ('Wendy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Victoria', 'her',sysdate(),sysdate());
+VALUES ('Victoria', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Edith', 'her',sysdate(),sysdate());
+VALUES ('Edith', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sherry', 'her',sysdate(),sysdate());
+VALUES ('Sherry', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sylvia', 'her',sysdate(),sysdate());
+VALUES ('Sylvia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Josephine', 'her',sysdate(),sysdate());
+VALUES ('Josephine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Thelma', 'her',sysdate(),sysdate());
+VALUES ('Thelma', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sheila', 'her',sysdate(),sysdate());
+VALUES ('Sheila', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ethel', 'her',sysdate(),sysdate());
+VALUES ('Ethel', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ellen', 'her',sysdate(),sysdate());
+VALUES ('Ellen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elaine', 'her',sysdate(),sysdate());
+VALUES ('Elaine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marjorie', 'her',sysdate(),sysdate());
+VALUES ('Marjorie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carrie', 'her',sysdate(),sysdate());
+VALUES ('Carrie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Charlotte', 'her',sysdate(),sysdate());
+VALUES ('Charlotte', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Monica', 'her',sysdate(),sysdate());
+VALUES ('Monica', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Esther', 'her',sysdate(),sysdate());
+VALUES ('Esther', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Pauline', 'her',sysdate(),sysdate());
+VALUES ('Pauline', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Emma', 'her',sysdate(),sysdate());
+VALUES ('Emma', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Juanita', 'her',sysdate(),sysdate());
+VALUES ('Juanita', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Anita', 'her',sysdate(),sysdate());
+VALUES ('Anita', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rhonda', 'her',sysdate(),sysdate());
+VALUES ('Rhonda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hazel', 'her',sysdate(),sysdate());
+VALUES ('Hazel', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Amber', 'her',sysdate(),sysdate());
+VALUES ('Amber', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eva', 'her',sysdate(),sysdate());
+VALUES ('Eva', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Debbie', 'her',sysdate(),sysdate());
+VALUES ('Debbie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('April', 'her',sysdate(),sysdate());
+VALUES ('April', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clara', 'her',sysdate(),sysdate());
+VALUES ('Clara', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lucille', 'her',sysdate(),sysdate());
+VALUES ('Lucille', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joanne', 'her',sysdate(),sysdate());
+VALUES ('Joanne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eleanor', 'her',sysdate(),sysdate());
+VALUES ('Eleanor', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Valerie', 'her',sysdate(),sysdate());
+VALUES ('Valerie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Danielle', 'her',sysdate(),sysdate());
+VALUES ('Danielle', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Megan', 'her',sysdate(),sysdate());
+VALUES ('Megan', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alicia', 'her',sysdate(),sysdate());
+VALUES ('Alicia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Suzanne', 'her',sysdate(),sysdate());
+VALUES ('Suzanne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Michele', 'her',sysdate(),sysdate());
+VALUES ('Michele', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gail', 'her',sysdate(),sysdate());
+VALUES ('Gail', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bertha', 'her',sysdate(),sysdate());
+VALUES ('Bertha', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darlene', 'her',sysdate(),sysdate());
+VALUES ('Darlene', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Veronica', 'her',sysdate(),sysdate());
+VALUES ('Veronica', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jill', 'her',sysdate(),sysdate());
+VALUES ('Jill', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Erin', 'her',sysdate(),sysdate());
+VALUES ('Erin', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Geraldine', 'her',sysdate(),sysdate());
+VALUES ('Geraldine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lauren', 'her',sysdate(),sysdate());
+VALUES ('Lauren', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cathy', 'her',sysdate(),sysdate());
+VALUES ('Cathy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joann', 'her',sysdate(),sysdate());
+VALUES ('Joann', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lorraine', 'her',sysdate(),sysdate());
+VALUES ('Lorraine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sally', 'her',sysdate(),sysdate());
+VALUES ('Sally', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Regina', 'her',sysdate(),sysdate());
+VALUES ('Regina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Erica', 'her',sysdate(),sysdate());
+VALUES ('Erica', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Beatrice', 'her',sysdate(),sysdate());
+VALUES ('Beatrice', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dolores', 'her',sysdate(),sysdate());
+VALUES ('Dolores', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bernice', 'her',sysdate(),sysdate());
+VALUES ('Bernice', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Audrey', 'her',sysdate(),sysdate());
+VALUES ('Audrey', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Yvonne', 'her',sysdate(),sysdate());
+VALUES ('Yvonne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Annette', 'her',sysdate(),sysdate());
+VALUES ('Annette', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('June', 'her',sysdate(),sysdate());
+VALUES ('June', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Samantha', 'her',sysdate(),sysdate());
+VALUES ('Samantha', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Stacy', 'her',sysdate(),sysdate());
+VALUES ('Stacy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ana', 'her',sysdate(),sysdate());
+VALUES ('Ana', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Renee', 'her',sysdate(),sysdate());
+VALUES ('Renee', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ida', 'her',sysdate(),sysdate());
+VALUES ('Ida', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Vivian', 'her',sysdate(),sysdate());
+VALUES ('Vivian', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roberta', 'her',sysdate(),sysdate());
+VALUES ('Roberta', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Holly', 'her',sysdate(),sysdate());
+VALUES ('Holly', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brittany', 'her',sysdate(),sysdate());
+VALUES ('Brittany', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Melanie', 'her',sysdate(),sysdate());
+VALUES ('Melanie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Loretta', 'her',sysdate(),sysdate());
+VALUES ('Loretta', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Yolanda', 'her',sysdate(),sysdate());
+VALUES ('Yolanda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeanette', 'her',sysdate(),sysdate());
+VALUES ('Jeanette', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Laurie', 'her',sysdate(),sysdate());
+VALUES ('Laurie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Katie', 'her',sysdate(),sysdate());
+VALUES ('Katie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kristen', 'her',sysdate(),sysdate());
+VALUES ('Kristen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Vanessa', 'her',sysdate(),sysdate());
+VALUES ('Vanessa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alma', 'her',sysdate(),sysdate());
+VALUES ('Alma', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sue', 'her',sysdate(),sysdate());
+VALUES ('Sue', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elsie', 'her',sysdate(),sysdate());
+VALUES ('Elsie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Beth', 'her',sysdate(),sysdate());
+VALUES ('Beth', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeanne', 'her',sysdate(),sysdate());
+VALUES ('Jeanne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Vicki', 'her',sysdate(),sysdate());
+VALUES ('Vicki', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carla', 'her',sysdate(),sysdate());
+VALUES ('Carla', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tara', 'her',sysdate(),sysdate());
+VALUES ('Tara', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rosemary', 'her',sysdate(),sysdate());
+VALUES ('Rosemary', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eileen', 'her',sysdate(),sysdate());
+VALUES ('Eileen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Terri', 'her',sysdate(),sysdate());
+VALUES ('Terri', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gertrude', 'her',sysdate(),sysdate());
+VALUES ('Gertrude', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lucy', 'her',sysdate(),sysdate());
+VALUES ('Lucy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tonya', 'her',sysdate(),sysdate());
+VALUES ('Tonya', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ella', 'her',sysdate(),sysdate());
+VALUES ('Ella', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Stacey', 'her',sysdate(),sysdate());
+VALUES ('Stacey', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wilma', 'her',sysdate(),sysdate());
+VALUES ('Wilma', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gina', 'her',sysdate(),sysdate());
+VALUES ('Gina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kristin', 'her',sysdate(),sysdate());
+VALUES ('Kristin', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Natalie', 'her',sysdate(),sysdate());
+VALUES ('Natalie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Agnes', 'her',sysdate(),sysdate());
+VALUES ('Agnes', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Vera', 'her',sysdate(),sysdate());
+VALUES ('Vera', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Charlene', 'her',sysdate(),sysdate());
+VALUES ('Charlene', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bessie', 'her',sysdate(),sysdate());
+VALUES ('Bessie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Delores', 'her',sysdate(),sysdate());
+VALUES ('Delores', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Melinda', 'her',sysdate(),sysdate());
+VALUES ('Melinda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Pearl', 'her',sysdate(),sysdate());
+VALUES ('Pearl', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Arlene', 'her',sysdate(),sysdate());
+VALUES ('Arlene', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Maureen', 'her',sysdate(),sysdate());
+VALUES ('Maureen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Colleen', 'her',sysdate(),sysdate());
+VALUES ('Colleen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Allison', 'her',sysdate(),sysdate());
+VALUES ('Allison', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tamara', 'her',sysdate(),sysdate());
+VALUES ('Tamara', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joy', 'her',sysdate(),sysdate());
+VALUES ('Joy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Georgia', 'her',sysdate(),sysdate());
+VALUES ('Georgia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Constance', 'her',sysdate(),sysdate());
+VALUES ('Constance', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lillie', 'her',sysdate(),sysdate());
+VALUES ('Lillie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Claudia', 'her',sysdate(),sysdate());
+VALUES ('Claudia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marcia', 'her',sysdate(),sysdate());
+VALUES ('Marcia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tanya', 'her',sysdate(),sysdate());
+VALUES ('Tanya', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nellie', 'her',sysdate(),sysdate());
+VALUES ('Nellie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Minnie', 'her',sysdate(),sysdate());
+VALUES ('Minnie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marlene', 'her',sysdate(),sysdate());
+VALUES ('Marlene', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Heidi', 'her',sysdate(),sysdate());
+VALUES ('Heidi', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Glenda', 'her',sysdate(),sysdate());
+VALUES ('Glenda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lydia', 'her',sysdate(),sysdate());
+VALUES ('Lydia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Viola', 'her',sysdate(),sysdate());
+VALUES ('Viola', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marian', 'her',sysdate(),sysdate());
+VALUES ('Marian', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Stella', 'her',sysdate(),sysdate());
+VALUES ('Stella', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Caroline', 'her',sysdate(),sysdate());
+VALUES ('Caroline', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dora', 'her',sysdate(),sysdate());
+VALUES ('Dora', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jo', 'her',sysdate(),sysdate());
+VALUES ('Jo', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Vickie', 'her',sysdate(),sysdate());
+VALUES ('Vickie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mattie', 'her',sysdate(),sysdate());
+VALUES ('Mattie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Maxine', 'her',sysdate(),sysdate());
+VALUES ('Maxine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Irma', 'her',sysdate(),sysdate());
+VALUES ('Irma', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mabel', 'her',sysdate(),sysdate());
+VALUES ('Mabel', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marsha', 'her',sysdate(),sysdate());
+VALUES ('Marsha', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Myrtle', 'her',sysdate(),sysdate());
+VALUES ('Myrtle', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lena', 'her',sysdate(),sysdate());
+VALUES ('Lena', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Christy', 'her',sysdate(),sysdate());
+VALUES ('Christy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Deanna', 'her',sysdate(),sysdate());
+VALUES ('Deanna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Patsy', 'her',sysdate(),sysdate());
+VALUES ('Patsy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hilda', 'her',sysdate(),sysdate());
+VALUES ('Hilda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gwendolyn', 'her',sysdate(),sysdate());
+VALUES ('Gwendolyn', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jennie', 'her',sysdate(),sysdate());
+VALUES ('Jennie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nora', 'her',sysdate(),sysdate());
+VALUES ('Nora', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Margie', 'her',sysdate(),sysdate());
+VALUES ('Margie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nina', 'her',sysdate(),sysdate());
+VALUES ('Nina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cassandra', 'her',sysdate(),sysdate());
+VALUES ('Cassandra', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leah', 'her',sysdate(),sysdate());
+VALUES ('Leah', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Penny', 'her',sysdate(),sysdate());
+VALUES ('Penny', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kay', 'her',sysdate(),sysdate());
+VALUES ('Kay', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Priscilla', 'her',sysdate(),sysdate());
+VALUES ('Priscilla', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Naomi', 'her',sysdate(),sysdate());
+VALUES ('Naomi', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carole', 'her',sysdate(),sysdate());
+VALUES ('Carole', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brandy', 'her',sysdate(),sysdate());
+VALUES ('Brandy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Olga', 'her',sysdate(),sysdate());
+VALUES ('Olga', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Billie', 'her',sysdate(),sysdate());
+VALUES ('Billie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dianne', 'her',sysdate(),sysdate());
+VALUES ('Dianne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tracey', 'her',sysdate(),sysdate());
+VALUES ('Tracey', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leona', 'her',sysdate(),sysdate());
+VALUES ('Leona', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jenny', 'her',sysdate(),sysdate());
+VALUES ('Jenny', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Felicia', 'her',sysdate(),sysdate());
+VALUES ('Felicia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sonia', 'her',sysdate(),sysdate());
+VALUES ('Sonia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Miriam', 'her',sysdate(),sysdate());
+VALUES ('Miriam', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Velma', 'her',sysdate(),sysdate());
+VALUES ('Velma', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Becky', 'her',sysdate(),sysdate());
+VALUES ('Becky', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bobbie', 'her',sysdate(),sysdate());
+VALUES ('Bobbie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Violet', 'her',sysdate(),sysdate());
+VALUES ('Violet', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kristina', 'her',sysdate(),sysdate());
+VALUES ('Kristina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Toni', 'her',sysdate(),sysdate());
+VALUES ('Toni', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Misty', 'her',sysdate(),sysdate());
+VALUES ('Misty', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mae', 'her',sysdate(),sysdate());
+VALUES ('Mae', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shelly', 'her',sysdate(),sysdate());
+VALUES ('Shelly', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Daisy', 'her',sysdate(),sysdate());
+VALUES ('Daisy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ramona', 'her',sysdate(),sysdate());
+VALUES ('Ramona', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sherri', 'her',sysdate(),sysdate());
+VALUES ('Sherri', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Erika', 'her',sysdate(),sysdate());
+VALUES ('Erika', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Katrina', 'her',sysdate(),sysdate());
+VALUES ('Katrina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Claire', 'her',sysdate(),sysdate());
+VALUES ('Claire', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lindsey', 'her',sysdate(),sysdate());
+VALUES ('Lindsey', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lindsay', 'her',sysdate(),sysdate());
+VALUES ('Lindsay', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Geneva', 'her',sysdate(),sysdate());
+VALUES ('Geneva', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Belinda', 'her',sysdate(),sysdate());
+VALUES ('Belinda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Margarita', 'her',sysdate(),sysdate());
+VALUES ('Margarita', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sheryl', 'her',sysdate(),sysdate());
+VALUES ('Sheryl', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cora', 'her',sysdate(),sysdate());
+VALUES ('Cora', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Faye', 'her',sysdate(),sysdate());
+VALUES ('Faye', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ada', 'her',sysdate(),sysdate());
+VALUES ('Ada', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Natasha', 'her',sysdate(),sysdate());
+VALUES ('Natasha', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sabrina', 'her',sysdate(),sysdate());
+VALUES ('Sabrina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Isabel', 'her',sysdate(),sysdate());
+VALUES ('Isabel', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marguerite', 'her',sysdate(),sysdate());
+VALUES ('Marguerite', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hattie', 'her',sysdate(),sysdate());
+VALUES ('Hattie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Harriet', 'her',sysdate(),sysdate());
+VALUES ('Harriet', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Molly', 'her',sysdate(),sysdate());
+VALUES ('Molly', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cecilia', 'her',sysdate(),sysdate());
+VALUES ('Cecilia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kristi', 'her',sysdate(),sysdate());
+VALUES ('Kristi', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brandi', 'her',sysdate(),sysdate());
+VALUES ('Brandi', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Blanche', 'her',sysdate(),sysdate());
+VALUES ('Blanche', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sandy', 'her',sysdate(),sysdate());
+VALUES ('Sandy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rosie', 'her',sysdate(),sysdate());
+VALUES ('Rosie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joanna', 'her',sysdate(),sysdate());
+VALUES ('Joanna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Iris', 'her',sysdate(),sysdate());
+VALUES ('Iris', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eunice', 'her',sysdate(),sysdate());
+VALUES ('Eunice', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eunice', 'her',sysdate(),sysdate());
+VALUES ('Eunice', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Angie', 'her',sysdate(),sysdate());
+VALUES ('Angie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Inez', 'her',sysdate(),sysdate());
+VALUES ('Inez', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lynda', 'her',sysdate(),sysdate());
+VALUES ('Lynda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Madeline', 'her',sysdate(),sysdate());
+VALUES ('Madeline', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Amelia', 'her',sysdate(),sysdate());
+VALUES ('Amelia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alberta', 'her',sysdate(),sysdate());
+VALUES ('Alberta', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Genevieve', 'her',sysdate(),sysdate());
+VALUES ('Genevieve', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Monique', 'her',sysdate(),sysdate());
+VALUES ('Monique', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jodi', 'her',sysdate(),sysdate());
+VALUES ('Jodi', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Janie', 'her',sysdate(),sysdate());
+VALUES ('Janie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Maggie', 'her',sysdate(),sysdate());
+VALUES ('Maggie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kayla', 'her',sysdate(),sysdate());
+VALUES ('Kayla', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sonya', 'her',sysdate(),sysdate());
+VALUES ('Sonya', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kristine', 'her',sysdate(),sysdate());
+VALUES ('Kristine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Candace', 'her',sysdate(),sysdate());
+VALUES ('Candace', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Fannie', 'her',sysdate(),sysdate());
+VALUES ('Fannie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Maryann', 'her',sysdate(),sysdate());
+VALUES ('Maryann', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Opal', 'her',sysdate(),sysdate());
+VALUES ('Opal', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alison', 'her',sysdate(),sysdate());
+VALUES ('Alison', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Yvette', 'her',sysdate(),sysdate());
+VALUES ('Yvette', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Melody', 'her',sysdate(),sysdate());
+VALUES ('Melody', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Luz', 'her',sysdate(),sysdate());
+VALUES ('Luz', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Susie', 'her',sysdate(),sysdate());
+VALUES ('Susie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Olivia', 'her',sysdate(),sysdate());
+VALUES ('Olivia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Flora', 'her',sysdate(),sysdate());
+VALUES ('Flora', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shelley', 'her',sysdate(),sysdate());
+VALUES ('Shelley', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kristy', 'her',sysdate(),sysdate());
+VALUES ('Kristy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mamie', 'her',sysdate(),sysdate());
+VALUES ('Mamie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lula', 'her',sysdate(),sysdate());
+VALUES ('Lula', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lola', 'her',sysdate(),sysdate());
+VALUES ('Lola', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Verna', 'her',sysdate(),sysdate());
+VALUES ('Verna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Beulah', 'her',sysdate(),sysdate());
+VALUES ('Beulah', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Antoinette', 'her',sysdate(),sysdate());
+VALUES ('Antoinette', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Candice', 'her',sysdate(),sysdate());
+VALUES ('Candice', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Juana', 'her',sysdate(),sysdate());
+VALUES ('Juana', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeannette', 'her',sysdate(),sysdate());
+VALUES ('Jeannette', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Pam', 'her',sysdate(),sysdate());
+VALUES ('Pam', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kelli', 'her',sysdate(),sysdate());
+VALUES ('Kelli', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hannah', 'her',sysdate(),sysdate());
+VALUES ('Hannah', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Whitney', 'her',sysdate(),sysdate());
+VALUES ('Whitney', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bridget', 'her',sysdate(),sysdate());
+VALUES ('Bridget', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Karla', 'her',sysdate(),sysdate());
+VALUES ('Karla', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Celia', 'her',sysdate(),sysdate());
+VALUES ('Celia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Latoya', 'her',sysdate(),sysdate());
+VALUES ('Latoya', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Patty', 'her',sysdate(),sysdate());
+VALUES ('Patty', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shelia', 'her',sysdate(),sysdate());
+VALUES ('Shelia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gayle', 'her',sysdate(),sysdate());
+VALUES ('Gayle', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Della', 'her',sysdate(),sysdate());
+VALUES ('Della', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Vicky', 'her',sysdate(),sysdate());
+VALUES ('Vicky', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lynne', 'her',sysdate(),sysdate());
+VALUES ('Lynne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sheri', 'her',sysdate(),sysdate());
+VALUES ('Sheri', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marianne', 'her',sysdate(),sysdate());
+VALUES ('Marianne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kara', 'her',sysdate(),sysdate());
+VALUES ('Kara', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jacquelyn', 'her',sysdate(),sysdate());
+VALUES ('Jacquelyn', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Erma', 'her',sysdate(),sysdate());
+VALUES ('Erma', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Blanca', 'her',sysdate(),sysdate());
+VALUES ('Blanca', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Myra', 'her',sysdate(),sysdate());
+VALUES ('Myra', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leticia', 'her',sysdate(),sysdate());
+VALUES ('Leticia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Krista', 'her',sysdate(),sysdate());
+VALUES ('Krista', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roxanne', 'her',sysdate(),sysdate());
+VALUES ('Roxanne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Angelica', 'her',sysdate(),sysdate());
+VALUES ('Angelica', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Robyn', 'her',sysdate(),sysdate());
+VALUES ('Robyn', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Adrienne', 'her',sysdate(),sysdate());
+VALUES ('Adrienne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rosalie', 'her',sysdate(),sysdate());
+VALUES ('Rosalie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alexandra', 'her',sysdate(),sysdate());
+VALUES ('Alexandra', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brooke', 'her',sysdate(),sysdate());
+VALUES ('Brooke', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bethany', 'her',sysdate(),sysdate());
+VALUES ('Bethany', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sadie', 'her',sysdate(),sysdate());
+VALUES ('Sadie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bernadette', 'her',sysdate(),sysdate());
+VALUES ('Bernadette', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Traci', 'her',sysdate(),sysdate());
+VALUES ('Traci', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kendra', 'her',sysdate(),sysdate());
+VALUES ('Kendra', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jasmine', 'her',sysdate(),sysdate());
+VALUES ('Jasmine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nichole', 'her',sysdate(),sysdate());
+VALUES ('Nichole', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rachael', 'her',sysdate(),sysdate());
+VALUES ('Rachael', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Chelsea', 'her',sysdate(),sysdate());
+VALUES ('Chelsea', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mable', 'her',sysdate(),sysdate());
+VALUES ('Mable', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ernestine', 'her',sysdate(),sysdate());
+VALUES ('Ernestine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Muriel', 'her',sysdate(),sysdate());
+VALUES ('Muriel', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marcella', 'her',sysdate(),sysdate());
+VALUES ('Marcella', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elena', 'her',sysdate(),sysdate());
+VALUES ('Elena', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Krystal', 'her',sysdate(),sysdate());
+VALUES ('Krystal', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Angelina', 'her',sysdate(),sysdate());
+VALUES ('Angelina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nadine', 'her',sysdate(),sysdate());
+VALUES ('Nadine', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kari', 'her',sysdate(),sysdate());
+VALUES ('Kari', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Estelle', 'her',sysdate(),sysdate());
+VALUES ('Estelle', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dianna', 'her',sysdate(),sysdate());
+VALUES ('Dianna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Paulette', 'her',sysdate(),sysdate());
+VALUES ('Paulette', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lora', 'her',sysdate(),sysdate());
+VALUES ('Lora', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mona', 'her',sysdate(),sysdate());
+VALUES ('Mona', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Doreen', 'her',sysdate(),sysdate());
+VALUES ('Doreen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rosemarie', 'her',sysdate(),sysdate());
+VALUES ('Rosemarie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Desiree', 'her',sysdate(),sysdate());
+VALUES ('Desiree', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Antonia', 'her',sysdate(),sysdate());
+VALUES ('Antonia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hope', 'her',sysdate(),sysdate());
+VALUES ('Hope', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ginger', 'her',sysdate(),sysdate());
+VALUES ('Ginger', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Janis', 'her',sysdate(),sysdate());
+VALUES ('Janis', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Betsy', 'her',sysdate(),sysdate());
+VALUES ('Betsy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Christie', 'her',sysdate(),sysdate());
+VALUES ('Christie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Freda', 'her',sysdate(),sysdate());
+VALUES ('Freda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mercedes', 'her',sysdate(),sysdate());
+VALUES ('Mercedes', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Meredith', 'her',sysdate(),sysdate());
+VALUES ('Meredith', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lynette', 'her',sysdate(),sysdate());
+VALUES ('Lynette', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Teri', 'her',sysdate(),sysdate());
+VALUES ('Teri', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cristina', 'her',sysdate(),sysdate());
+VALUES ('Cristina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eula', 'her',sysdate(),sysdate());
+VALUES ('Eula', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leigh', 'her',sysdate(),sysdate());
+VALUES ('Leigh', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Meghan', 'her',sysdate(),sysdate());
+VALUES ('Meghan', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sophia', 'her',sysdate(),sysdate());
+VALUES ('Sophia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eloise', 'her',sysdate(),sysdate());
+VALUES ('Eloise', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rochelle', 'her',sysdate(),sysdate());
+VALUES ('Rochelle', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gretchen', 'her',sysdate(),sysdate());
+VALUES ('Gretchen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cecelia', 'her',sysdate(),sysdate());
+VALUES ('Cecelia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Raquel', 'her',sysdate(),sysdate());
+VALUES ('Raquel', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Henrietta', 'her',sysdate(),sysdate());
+VALUES ('Henrietta', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alyssa', 'her',sysdate(),sysdate());
+VALUES ('Alyssa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jana', 'her',sysdate(),sysdate());
+VALUES ('Jana', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kelley', 'her',sysdate(),sysdate());
+VALUES ('Kelley', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gwen', 'her',sysdate(),sysdate());
+VALUES ('Gwen', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jenna', 'her',sysdate(),sysdate());
+VALUES ('Jenna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tricia', 'her',sysdate(),sysdate());
+VALUES ('Tricia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Laverne', 'her',sysdate(),sysdate());
+VALUES ('Laverne', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Olive', 'her',sysdate(),sysdate());
+VALUES ('Olive', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alexis', 'her',sysdate(),sysdate());
+VALUES ('Alexis', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tasha', 'her',sysdate(),sysdate());
+VALUES ('Tasha', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Silvia', 'her',sysdate(),sysdate());
+VALUES ('Silvia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elvira', 'her',sysdate(),sysdate());
+VALUES ('Elvira', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Delia', 'her',sysdate(),sysdate());
+VALUES ('Delia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sophie', 'her',sysdate(),sysdate());
+VALUES ('Sophie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kate', 'her',sysdate(),sysdate());
+VALUES ('Kate', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Patti', 'her',sysdate(),sysdate());
+VALUES ('Patti', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lorena', 'her',sysdate(),sysdate());
+VALUES ('Lorena', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kellie', 'her',sysdate(),sysdate());
+VALUES ('Kellie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sonja', 'her',sysdate(),sysdate());
+VALUES ('Sonja', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lila', 'her',sysdate(),sysdate());
+VALUES ('Lila', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lana', 'her',sysdate(),sysdate());
+VALUES ('Lana', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darla', 'her',sysdate(),sysdate());
+VALUES ('Darla', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('May', 'her',sysdate(),sysdate());
+VALUES ('May', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mindy', 'her',sysdate(),sysdate());
+VALUES ('Mindy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Essie', 'her',sysdate(),sysdate());
+VALUES ('Essie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mandy', 'her',sysdate(),sysdate());
+VALUES ('Mandy', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lorene', 'her',sysdate(),sysdate());
+VALUES ('Lorene', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elsa', 'her',sysdate(),sysdate());
+VALUES ('Elsa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Josefina', 'her',sysdate(),sysdate());
+VALUES ('Josefina', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeannie', 'her',sysdate(),sysdate());
+VALUES ('Jeannie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Miranda', 'her',sysdate(),sysdate());
+VALUES ('Miranda', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dixie', 'her',sysdate(),sysdate());
+VALUES ('Dixie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lucia', 'her',sysdate(),sysdate());
+VALUES ('Lucia', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marta', 'her',sysdate(),sysdate());
+VALUES ('Marta', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Faith', 'her',sysdate(),sysdate());
+VALUES ('Faith', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lela', 'her',sysdate(),sysdate());
+VALUES ('Lela', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Johanna', 'her',sysdate(),sysdate());
+VALUES ('Johanna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shari', 'her',sysdate(),sysdate());
+VALUES ('Shari', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Camille', 'her',sysdate(),sysdate());
+VALUES ('Camille', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tami', 'her',sysdate(),sysdate());
+VALUES ('Tami', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shawna', 'her',sysdate(),sysdate());
+VALUES ('Shawna', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elisa', 'her',sysdate(),sysdate());
+VALUES ('Elisa', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ebony', 'her',sysdate(),sysdate());
+VALUES ('Ebony', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Melba', 'her',sysdate(),sysdate());
+VALUES ('Melba', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ora', 'her',sysdate(),sysdate());
+VALUES ('Ora', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nettie', 'her',sysdate(),sysdate());
+VALUES ('Nettie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tabitha', 'her',sysdate(),sysdate());
+VALUES ('Tabitha', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ollie', 'her',sysdate(),sysdate());
+VALUES ('Ollie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Winifred', 'her',sysdate(),sysdate());
+VALUES ('Winifred', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kristie', 'her',sysdate(),sysdate());
+VALUES ('Kristie', 'her, she',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('James', 'him',sysdate(),sysdate());
+VALUES ('James', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('John', 'him',sysdate(),sysdate());
+VALUES ('John', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Robert', 'him',sysdate(),sysdate());
+VALUES ('Robert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Michael', 'him',sysdate(),sysdate());
+VALUES ('Michael', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('William', 'him',sysdate(),sysdate());
+VALUES ('William', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('David', 'him',sysdate(),sysdate());
+VALUES ('David', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Richard', 'him',sysdate(),sysdate());
+VALUES ('Richard', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Charles', 'him',sysdate(),sysdate());
+VALUES ('Charles', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joseph', 'him',sysdate(),sysdate());
+VALUES ('Joseph', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Thomas', 'him',sysdate(),sysdate());
+VALUES ('Thomas', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Christopher', 'him',sysdate(),sysdate());
+VALUES ('Christopher', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Daniel', 'him',sysdate(),sysdate());
+VALUES ('Daniel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Paul', 'him',sysdate(),sysdate());
+VALUES ('Paul', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mark', 'him',sysdate(),sysdate());
+VALUES ('Mark', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Donald', 'him',sysdate(),sysdate());
+VALUES ('Donald', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('George', 'him',sysdate(),sysdate());
+VALUES ('George', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kenneth', 'him',sysdate(),sysdate());
+VALUES ('Kenneth', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Steven', 'him',sysdate(),sysdate());
+VALUES ('Steven', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Edward', 'him',sysdate(),sysdate());
+VALUES ('Edward', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brian', 'him',sysdate(),sysdate());
+VALUES ('Brian', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ronald', 'him',sysdate(),sysdate());
+VALUES ('Ronald', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Anthony', 'him',sysdate(),sysdate());
+VALUES ('Anthony', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kevin', 'him',sysdate(),sysdate());
+VALUES ('Kevin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jason', 'him',sysdate(),sysdate());
+VALUES ('Jason', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Matthew', 'him',sysdate(),sysdate());
+VALUES ('Matthew', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gary', 'him',sysdate(),sysdate());
+VALUES ('Gary', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Timothy', 'him',sysdate(),sysdate());
+VALUES ('Timothy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jose', 'him',sysdate(),sysdate());
+VALUES ('Jose', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Larry', 'him',sysdate(),sysdate());
+VALUES ('Larry', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeffrey', 'him',sysdate(),sysdate());
+VALUES ('Jeffrey', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Frank', 'him',sysdate(),sysdate());
+VALUES ('Frank', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Scott', 'him',sysdate(),sysdate());
+VALUES ('Scott', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eric', 'him',sysdate(),sysdate());
+VALUES ('Eric', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Stephen', 'him',sysdate(),sysdate());
+VALUES ('Stephen', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Andrew', 'him',sysdate(),sysdate());
+VALUES ('Andrew', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Raymond', 'him',sysdate(),sysdate());
+VALUES ('Raymond', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gregory', 'him',sysdate(),sysdate());
+VALUES ('Gregory', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joshua', 'him',sysdate(),sysdate());
+VALUES ('Joshua', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jerry', 'him',sysdate(),sysdate());
+VALUES ('Jerry', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dennis', 'him',sysdate(),sysdate());
+VALUES ('Dennis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Walter', 'him',sysdate(),sysdate());
+VALUES ('Walter', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Patrick', 'him',sysdate(),sysdate());
+VALUES ('Patrick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Peter', 'him',sysdate(),sysdate());
+VALUES ('Peter', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Harold', 'him',sysdate(),sysdate());
+VALUES ('Harold', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Douglas', 'him',sysdate(),sysdate());
+VALUES ('Douglas', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Henry', 'him',sysdate(),sysdate());
+VALUES ('Henry', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carl', 'him',sysdate(),sysdate());
+VALUES ('Carl', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Arthur', 'him',sysdate(),sysdate());
+VALUES ('Arthur', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ryan', 'him',sysdate(),sysdate());
+VALUES ('Ryan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roger', 'him',sysdate(),sysdate());
+VALUES ('Roger', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joe', 'him',sysdate(),sysdate());
+VALUES ('Joe', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Juan', 'him',sysdate(),sysdate());
+VALUES ('Juan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jack', 'him',sysdate(),sysdate());
+VALUES ('Jack', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Albert', 'him',sysdate(),sysdate());
+VALUES ('Albert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jonathan', 'him',sysdate(),sysdate());
+VALUES ('Jonathan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Justin', 'him',sysdate(),sysdate());
+VALUES ('Justin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gerald', 'him',sysdate(),sysdate());
+VALUES ('Gerald', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Keith', 'him',sysdate(),sysdate());
+VALUES ('Keith', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Samuel', 'him',sysdate(),sysdate());
+VALUES ('Samuel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ralph', 'him',sysdate(),sysdate());
+VALUES ('Ralph', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lawrence', 'him',sysdate(),sysdate());
+VALUES ('Lawrence', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nicholas', 'him',sysdate(),sysdate());
+VALUES ('Nicholas', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roy', 'him',sysdate(),sysdate());
+VALUES ('Roy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Benjamin', 'him',sysdate(),sysdate());
+VALUES ('Benjamin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bruce', 'him',sysdate(),sysdate());
+VALUES ('Bruce', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brandon', 'him',sysdate(),sysdate());
+VALUES ('Brandon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Adam', 'him',sysdate(),sysdate());
+VALUES ('Adam', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Harry', 'him',sysdate(),sysdate());
+VALUES ('Harry', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Fred', 'him',sysdate(),sysdate());
+VALUES ('Fred', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wayne', 'him',sysdate(),sysdate());
+VALUES ('Wayne', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Billy', 'him',sysdate(),sysdate());
+VALUES ('Billy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Steve', 'him',sysdate(),sysdate());
+VALUES ('Steve', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Louis', 'him',sysdate(),sysdate());
+VALUES ('Louis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeremy', 'him',sysdate(),sysdate());
+VALUES ('Jeremy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Aaron', 'him',sysdate(),sysdate());
+VALUES ('Aaron', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Randy', 'him',sysdate(),sysdate());
+VALUES ('Randy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Howard', 'him',sysdate(),sysdate());
+VALUES ('Howard', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eugene', 'him',sysdate(),sysdate());
+VALUES ('Eugene', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carlos', 'him',sysdate(),sysdate());
+VALUES ('Carlos', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Russell', 'him',sysdate(),sysdate());
+VALUES ('Russell', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bobby', 'him',sysdate(),sysdate());
+VALUES ('Bobby', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Victor', 'him',sysdate(),sysdate());
+VALUES ('Victor', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Martin', 'him',sysdate(),sysdate());
+VALUES ('Martin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ernest', 'him',sysdate(),sysdate());
+VALUES ('Ernest', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Phillip', 'him',sysdate(),sysdate());
+VALUES ('Phillip', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Todd', 'him',sysdate(),sysdate());
+VALUES ('Todd', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jesse', 'him',sysdate(),sysdate());
+VALUES ('Jesse', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Craig', 'him',sysdate(),sysdate());
+VALUES ('Craig', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alan', 'him',sysdate(),sysdate());
+VALUES ('Alan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shawn', 'him',sysdate(),sysdate());
+VALUES ('Shawn', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clarence', 'him',sysdate(),sysdate());
+VALUES ('Clarence', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sean', 'him',sysdate(),sysdate());
+VALUES ('Sean', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Philip', 'him',sysdate(),sysdate());
+VALUES ('Philip', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Chris', 'him',sysdate(),sysdate());
+VALUES ('Chris', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Johnny', 'him',sysdate(),sysdate());
+VALUES ('Johnny', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Earl', 'him',sysdate(),sysdate());
+VALUES ('Earl', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jimmy', 'him',sysdate(),sysdate());
+VALUES ('Jimmy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Antonio', 'him',sysdate(),sysdate());
+VALUES ('Antonio', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Danny', 'him',sysdate(),sysdate());
+VALUES ('Danny', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bryan', 'him',sysdate(),sysdate());
+VALUES ('Bryan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tony', 'him',sysdate(),sysdate());
+VALUES ('Tony', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Luis', 'him',sysdate(),sysdate());
+VALUES ('Luis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mike', 'him',sysdate(),sysdate());
+VALUES ('Mike', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Stanley', 'him',sysdate(),sysdate());
+VALUES ('Stanley', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leonard', 'him',sysdate(),sysdate());
+VALUES ('Leonard', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nathan', 'him',sysdate(),sysdate());
+VALUES ('Nathan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dale', 'him',sysdate(),sysdate());
+VALUES ('Dale', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Manuel', 'him',sysdate(),sysdate());
+VALUES ('Manuel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rodney', 'him',sysdate(),sysdate());
+VALUES ('Rodney', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Curtis', 'him',sysdate(),sysdate());
+VALUES ('Curtis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Norman', 'him',sysdate(),sysdate());
+VALUES ('Norman', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Allen', 'him',sysdate(),sysdate());
+VALUES ('Allen', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marvin', 'him',sysdate(),sysdate());
+VALUES ('Marvin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Vincent', 'him',sysdate(),sysdate());
+VALUES ('Vincent', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Glenn', 'him',sysdate(),sysdate());
+VALUES ('Glenn', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeffery', 'him',sysdate(),sysdate());
+VALUES ('Jeffery', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Travis', 'him',sysdate(),sysdate());
+VALUES ('Travis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeff', 'him',sysdate(),sysdate());
+VALUES ('Jeff', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Chad', 'him',sysdate(),sysdate());
+VALUES ('Chad', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jacob', 'him',sysdate(),sysdate());
+VALUES ('Jacob', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Melvin', 'him',sysdate(),sysdate());
+VALUES ('Melvin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alfred', 'him',sysdate(),sysdate());
+VALUES ('Alfred', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kyle', 'him',sysdate(),sysdate());
+VALUES ('Kyle', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bradley', 'him',sysdate(),sysdate());
+VALUES ('Bradley', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jesus', 'him',sysdate(),sysdate());
+VALUES ('Jesus', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Herbert', 'him',sysdate(),sysdate());
+VALUES ('Herbert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Frederick', 'him',sysdate(),sysdate());
+VALUES ('Frederick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ray', 'him',sysdate(),sysdate());
+VALUES ('Ray', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joel', 'him',sysdate(),sysdate());
+VALUES ('Joel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Edwin', 'him',sysdate(),sysdate());
+VALUES ('Edwin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Don', 'him',sysdate(),sysdate());
+VALUES ('Don', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eddie', 'him',sysdate(),sysdate());
+VALUES ('Eddie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ricky', 'him',sysdate(),sysdate());
+VALUES ('Ricky', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Troy', 'him',sysdate(),sysdate());
+VALUES ('Troy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Randall', 'him',sysdate(),sysdate());
+VALUES ('Randall', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Barry', 'him',sysdate(),sysdate());
+VALUES ('Barry', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alexander', 'him',sysdate(),sysdate());
+VALUES ('Alexander', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bernard', 'him',sysdate(),sysdate());
+VALUES ('Bernard', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mario', 'him',sysdate(),sysdate());
+VALUES ('Mario', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leroy', 'him',sysdate(),sysdate());
+VALUES ('Leroy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Francisco', 'him',sysdate(),sysdate());
+VALUES ('Francisco', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marcus', 'him',sysdate(),sysdate());
+VALUES ('Marcus', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Micheal', 'him',sysdate(),sysdate());
+VALUES ('Micheal', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Theodore', 'him',sysdate(),sysdate());
+VALUES ('Theodore', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clifford', 'him',sysdate(),sysdate());
+VALUES ('Clifford', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Miguel', 'him',sysdate(),sysdate());
+VALUES ('Miguel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Oscar', 'him',sysdate(),sysdate());
+VALUES ('Oscar', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jay', 'him',sysdate(),sysdate());
+VALUES ('Jay', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jim', 'him',sysdate(),sysdate());
+VALUES ('Jim', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tom', 'him',sysdate(),sysdate());
+VALUES ('Tom', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Calvin', 'him',sysdate(),sysdate());
+VALUES ('Calvin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alex', 'him',sysdate(),sysdate());
+VALUES ('Alex', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jon', 'him',sysdate(),sysdate());
+VALUES ('Jon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ronnie', 'him',sysdate(),sysdate());
+VALUES ('Ronnie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bill', 'him',sysdate(),sysdate());
+VALUES ('Bill', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lloyd', 'him',sysdate(),sysdate());
+VALUES ('Lloyd', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tommy', 'him',sysdate(),sysdate());
+VALUES ('Tommy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leon', 'him',sysdate(),sysdate());
+VALUES ('Leon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Derek', 'him',sysdate(),sysdate());
+VALUES ('Derek', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Warren', 'him',sysdate(),sysdate());
+VALUES ('Warren', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darrell', 'him',sysdate(),sysdate());
+VALUES ('Darrell', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jerome', 'him',sysdate(),sysdate());
+VALUES ('Jerome', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Floyd', 'him',sysdate(),sysdate());
+VALUES ('Floyd', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leo', 'him',sysdate(),sysdate());
+VALUES ('Leo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alvin', 'him',sysdate(),sysdate());
+VALUES ('Alvin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tim', 'him',sysdate(),sysdate());
+VALUES ('Tim', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wesley', 'him',sysdate(),sysdate());
+VALUES ('Wesley', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gordon', 'him',sysdate(),sysdate());
+VALUES ('Gordon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dean', 'him',sysdate(),sysdate());
+VALUES ('Dean', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Greg', 'him',sysdate(),sysdate());
+VALUES ('Greg', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jorge', 'him',sysdate(),sysdate());
+VALUES ('Jorge', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dustin', 'him',sysdate(),sysdate());
+VALUES ('Dustin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Pedro', 'him',sysdate(),sysdate());
+VALUES ('Pedro', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Derrick', 'him',sysdate(),sysdate());
+VALUES ('Derrick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dan', 'him',sysdate(),sysdate());
+VALUES ('Dan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lewis', 'him',sysdate(),sysdate());
+VALUES ('Lewis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Zachary', 'him',sysdate(),sysdate());
+VALUES ('Zachary', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Corey', 'him',sysdate(),sysdate());
+VALUES ('Corey', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Herman', 'him',sysdate(),sysdate());
+VALUES ('Herman', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Maurice', 'him',sysdate(),sysdate());
+VALUES ('Maurice', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Vernon', 'him',sysdate(),sysdate());
+VALUES ('Vernon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roberto', 'him',sysdate(),sysdate());
+VALUES ('Roberto', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clyde', 'him',sysdate(),sysdate());
+VALUES ('Clyde', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Glen', 'him',sysdate(),sysdate());
+VALUES ('Glen', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hector', 'him',sysdate(),sysdate());
+VALUES ('Hector', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shane', 'him',sysdate(),sysdate());
+VALUES ('Shane', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ricardo', 'him',sysdate(),sysdate());
+VALUES ('Ricardo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sam', 'him',sysdate(),sysdate());
+VALUES ('Sam', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rick', 'him',sysdate(),sysdate());
+VALUES ('Rick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lester', 'him',sysdate(),sysdate());
+VALUES ('Lester', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brent', 'him',sysdate(),sysdate());
+VALUES ('Brent', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ramon', 'him',sysdate(),sysdate());
+VALUES ('Ramon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Charlie', 'him',sysdate(),sysdate());
+VALUES ('Charlie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tyler', 'him',sysdate(),sysdate());
+VALUES ('Tyler', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gilbert', 'him',sysdate(),sysdate());
+VALUES ('Gilbert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gene', 'him',sysdate(),sysdate());
+VALUES ('Gene', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marc', 'him',sysdate(),sysdate());
+VALUES ('Marc', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Reginald', 'him',sysdate(),sysdate());
+VALUES ('Reginald', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ruben', 'him',sysdate(),sysdate());
+VALUES ('Ruben', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brett', 'him',sysdate(),sysdate());
+VALUES ('Brett', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nathaniel', 'him',sysdate(),sysdate());
+VALUES ('Nathaniel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rafael', 'him',sysdate(),sysdate());
+VALUES ('Rafael', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Edgar', 'him',sysdate(),sysdate());
+VALUES ('Edgar', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Milton', 'him',sysdate(),sysdate());
+VALUES ('Milton', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Raul', 'him',sysdate(),sysdate());
+VALUES ('Raul', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ben', 'him',sysdate(),sysdate());
+VALUES ('Ben', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Chester', 'him',sysdate(),sysdate());
+VALUES ('Chester', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cecil', 'him',sysdate(),sysdate());
+VALUES ('Cecil', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Duane', 'him',sysdate(),sysdate());
+VALUES ('Duane', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Franklin', 'him',sysdate(),sysdate());
+VALUES ('Franklin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Andre', 'him',sysdate(),sysdate());
+VALUES ('Andre', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elmer', 'him',sysdate(),sysdate());
+VALUES ('Elmer', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brad', 'him',sysdate(),sysdate());
+VALUES ('Brad', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gabriel', 'him',sysdate(),sysdate());
+VALUES ('Gabriel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ron', 'him',sysdate(),sysdate());
+VALUES ('Ron', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mitchell', 'him',sysdate(),sysdate());
+VALUES ('Mitchell', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roland', 'him',sysdate(),sysdate());
+VALUES ('Roland', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Arnold', 'him',sysdate(),sysdate());
+VALUES ('Arnold', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Harvey', 'him',sysdate(),sysdate());
+VALUES ('Harvey', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jared', 'him',sysdate(),sysdate());
+VALUES ('Jared', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Adrian', 'him',sysdate(),sysdate());
+VALUES ('Adrian', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Karl', 'him',sysdate(),sysdate());
+VALUES ('Karl', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cory', 'him',sysdate(),sysdate());
+VALUES ('Cory', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Claude', 'him',sysdate(),sysdate());
+VALUES ('Claude', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Erik', 'him',sysdate(),sysdate());
+VALUES ('Erik', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darryl', 'him',sysdate(),sysdate());
+VALUES ('Darryl', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Neil', 'him',sysdate(),sysdate());
+VALUES ('Neil', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Christian', 'him',sysdate(),sysdate());
+VALUES ('Christian', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Javier', 'him',sysdate(),sysdate());
+VALUES ('Javier', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Fernando', 'him',sysdate(),sysdate());
+VALUES ('Fernando', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clinton', 'him',sysdate(),sysdate());
+VALUES ('Clinton', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ted', 'him',sysdate(),sysdate());
+VALUES ('Ted', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mathew', 'him',sysdate(),sysdate());
+VALUES ('Mathew', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tyrone', 'him',sysdate(),sysdate());
+VALUES ('Tyrone', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darren', 'him',sysdate(),sysdate());
+VALUES ('Darren', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lonnie', 'him',sysdate(),sysdate());
+VALUES ('Lonnie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lance', 'him',sysdate(),sysdate());
+VALUES ('Lance', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cody', 'him',sysdate(),sysdate());
+VALUES ('Cody', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Julio', 'him',sysdate(),sysdate());
+VALUES ('Julio', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kurt', 'him',sysdate(),sysdate());
+VALUES ('Kurt', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Allan', 'him',sysdate(),sysdate());
+VALUES ('Allan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nelson', 'him',sysdate(),sysdate());
+VALUES ('Nelson', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Guy', 'him',sysdate(),sysdate());
+VALUES ('Guy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clayton', 'him',sysdate(),sysdate());
+VALUES ('Clayton', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hugh', 'him',sysdate(),sysdate());
+VALUES ('Hugh', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Max', 'him',sysdate(),sysdate());
+VALUES ('Max', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dwayne', 'him',sysdate(),sysdate());
+VALUES ('Dwayne', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dwight', 'him',sysdate(),sysdate());
+VALUES ('Dwight', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Armando', 'him',sysdate(),sysdate());
+VALUES ('Armando', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Felix', 'him',sysdate(),sysdate());
+VALUES ('Felix', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jimmie', 'him',sysdate(),sysdate());
+VALUES ('Jimmie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Everett', 'him',sysdate(),sysdate());
+VALUES ('Everett', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jordan', 'him',sysdate(),sysdate());
+VALUES ('Jordan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ian', 'him',sysdate(),sysdate());
+VALUES ('Ian', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wallace', 'him',sysdate(),sysdate());
+VALUES ('Wallace', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ken', 'him',sysdate(),sysdate());
+VALUES ('Ken', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bob', 'him',sysdate(),sysdate());
+VALUES ('Bob', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alfredo', 'him',sysdate(),sysdate());
+VALUES ('Alfredo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alberto', 'him',sysdate(),sysdate());
+VALUES ('Alberto', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dave', 'him',sysdate(),sysdate());
+VALUES ('Dave', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ivan', 'him',sysdate(),sysdate());
+VALUES ('Ivan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sidney', 'him',sysdate(),sysdate());
+VALUES ('Sidney', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Byron', 'him',sysdate(),sysdate());
+VALUES ('Byron', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Julian', 'him',sysdate(),sysdate());
+VALUES ('Julian', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Isaac', 'him',sysdate(),sysdate());
+VALUES ('Isaac', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Morris', 'him',sysdate(),sysdate());
+VALUES ('Morris', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clifton', 'him',sysdate(),sysdate());
+VALUES ('Clifton', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Willard', 'him',sysdate(),sysdate());
+VALUES ('Willard', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Daryl', 'him',sysdate(),sysdate());
+VALUES ('Daryl', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ross', 'him',sysdate(),sysdate());
+VALUES ('Ross', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Virgil', 'him',sysdate(),sysdate());
+VALUES ('Virgil', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Andy', 'him',sysdate(),sysdate());
+VALUES ('Andy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marshall', 'him',sysdate(),sysdate());
+VALUES ('Marshall', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Salvador', 'him',sysdate(),sysdate());
+VALUES ('Salvador', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Perry', 'him',sysdate(),sysdate());
+VALUES ('Perry', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kirk', 'him',sysdate(),sysdate());
+VALUES ('Kirk', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sergio', 'him',sysdate(),sysdate());
+VALUES ('Sergio', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Seth', 'him',sysdate(),sysdate());
+VALUES ('Seth', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kent', 'him',sysdate(),sysdate());
+VALUES ('Kent', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Terrance', 'him',sysdate(),sysdate());
+VALUES ('Terrance', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rene', 'him',sysdate(),sysdate());
+VALUES ('Rene', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Eduardo', 'him',sysdate(),sysdate());
+VALUES ('Eduardo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Terrence', 'him',sysdate(),sysdate());
+VALUES ('Terrence', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Enrique', 'him',sysdate(),sysdate());
+VALUES ('Enrique', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Freddie', 'him',sysdate(),sysdate());
+VALUES ('Freddie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wade', 'him',sysdate(),sysdate());
+VALUES ('Wade', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Austin', 'him',sysdate(),sysdate());
+VALUES ('Austin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Stuart', 'him',sysdate(),sysdate());
+VALUES ('Stuart', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Fredrick', 'him',sysdate(),sysdate());
+VALUES ('Fredrick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Arturo', 'him',sysdate(),sysdate());
+VALUES ('Arturo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alejandro', 'him',sysdate(),sysdate());
+VALUES ('Alejandro', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Joey', 'him',sysdate(),sysdate());
+VALUES ('Joey', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nick', 'him',sysdate(),sysdate());
+VALUES ('Nick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Luther', 'him',sysdate(),sysdate());
+VALUES ('Luther', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wendell', 'him',sysdate(),sysdate());
+VALUES ('Wendell', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jeremiah', 'him',sysdate(),sysdate());
+VALUES ('Jeremiah', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Evan', 'him',sysdate(),sysdate());
+VALUES ('Evan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Julius', 'him',sysdate(),sysdate());
+VALUES ('Julius', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Donnie', 'him',sysdate(),sysdate());
+VALUES ('Donnie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Otis', 'him',sysdate(),sysdate());
+VALUES ('Otis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Trevor', 'him',sysdate(),sysdate());
+VALUES ('Trevor', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Oliver', 'him',sysdate(),sysdate());
+VALUES ('Oliver', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Luke', 'him',sysdate(),sysdate());
+VALUES ('Luke', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Homer', 'him',sysdate(),sysdate());
+VALUES ('Homer', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gerard', 'him',sysdate(),sysdate());
+VALUES ('Gerard', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Doug', 'him',sysdate(),sysdate());
+VALUES ('Doug', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kenny', 'him',sysdate(),sysdate());
+VALUES ('Kenny', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hubert', 'him',sysdate(),sysdate());
+VALUES ('Hubert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Angelo', 'him',sysdate(),sysdate());
+VALUES ('Angelo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Shaun', 'him',sysdate(),sysdate());
+VALUES ('Shaun', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lyle', 'him',sysdate(),sysdate());
+VALUES ('Lyle', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Matt', 'him',sysdate(),sysdate());
+VALUES ('Matt', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alfonso', 'him',sysdate(),sysdate());
+VALUES ('Alfonso', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Orlando', 'him',sysdate(),sysdate());
+VALUES ('Orlando', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rex', 'him',sysdate(),sysdate());
+VALUES ('Rex', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carlton', 'him',sysdate(),sysdate());
+VALUES ('Carlton', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ernesto', 'him',sysdate(),sysdate());
+VALUES ('Ernesto', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cameron', 'him',sysdate(),sysdate());
+VALUES ('Cameron', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Neal', 'him',sysdate(),sysdate());
+VALUES ('Neal', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Pablo', 'him',sysdate(),sysdate());
+VALUES ('Pablo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lorenzo', 'him',sysdate(),sysdate());
+VALUES ('Lorenzo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Omar', 'him',sysdate(),sysdate());
+VALUES ('Omar', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wilbur', 'him',sysdate(),sysdate());
+VALUES ('Wilbur', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Blake', 'him',sysdate(),sysdate());
+VALUES ('Blake', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Grant', 'him',sysdate(),sysdate());
+VALUES ('Grant', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Horace', 'him',sysdate(),sysdate());
+VALUES ('Horace', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roderick', 'him',sysdate(),sysdate());
+VALUES ('Roderick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Abraham', 'him',sysdate(),sysdate());
+VALUES ('Abraham', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Willis', 'him',sysdate(),sysdate());
+VALUES ('Willis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rickey', 'him',sysdate(),sysdate());
+VALUES ('Rickey', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ira', 'him',sysdate(),sysdate());
+VALUES ('Ira', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Andres', 'him',sysdate(),sysdate());
+VALUES ('Andres', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cesar', 'him',sysdate(),sysdate());
+VALUES ('Cesar', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Johnathan', 'him',sysdate(),sysdate());
+VALUES ('Johnathan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Malcolm', 'him',sysdate(),sysdate());
+VALUES ('Malcolm', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rudolph', 'him',sysdate(),sysdate());
+VALUES ('Rudolph', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Damon', 'him',sysdate(),sysdate());
+VALUES ('Damon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kelvin', 'him',sysdate(),sysdate());
+VALUES ('Kelvin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rudy', 'him',sysdate(),sysdate());
+VALUES ('Rudy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Preston', 'him',sysdate(),sysdate());
+VALUES ('Preston', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alton', 'him',sysdate(),sysdate());
+VALUES ('Alton', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Archie', 'him',sysdate(),sysdate());
+VALUES ('Archie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marco', 'him',sysdate(),sysdate());
+VALUES ('Marco', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wm', 'him',sysdate(),sysdate());
+VALUES ('Wm', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Pete', 'him',sysdate(),sysdate());
+VALUES ('Pete', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Randolph', 'him',sysdate(),sysdate());
+VALUES ('Randolph', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Garry', 'him',sysdate(),sysdate());
+VALUES ('Garry', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Geoffrey', 'him',sysdate(),sysdate());
+VALUES ('Geoffrey', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jonathon', 'him',sysdate(),sysdate());
+VALUES ('Jonathon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Felipe', 'him',sysdate(),sysdate());
+VALUES ('Felipe', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bennie', 'him',sysdate(),sysdate());
+VALUES ('Bennie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gerardo', 'him',sysdate(),sysdate());
+VALUES ('Gerardo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ed', 'him',sysdate(),sysdate());
+VALUES ('Ed', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dominic', 'him',sysdate(),sysdate());
+VALUES ('Dominic', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Loren', 'him',sysdate(),sysdate());
+VALUES ('Loren', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Delbert', 'him',sysdate(),sysdate());
+VALUES ('Delbert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Colin', 'him',sysdate(),sysdate());
+VALUES ('Colin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Guillermo', 'him',sysdate(),sysdate());
+VALUES ('Guillermo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Earnest', 'him',sysdate(),sysdate());
+VALUES ('Earnest', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lucas', 'him',sysdate(),sysdate());
+VALUES ('Lucas', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Benny', 'him',sysdate(),sysdate());
+VALUES ('Benny', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Noel', 'him',sysdate(),sysdate());
+VALUES ('Noel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Spencer', 'him',sysdate(),sysdate());
+VALUES ('Spencer', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rodolfo', 'him',sysdate(),sysdate());
+VALUES ('Rodolfo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Myron', 'him',sysdate(),sysdate());
+VALUES ('Myron', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Edmund', 'him',sysdate(),sysdate());
+VALUES ('Edmund', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Garrett', 'him',sysdate(),sysdate());
+VALUES ('Garrett', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Salvatore', 'him',sysdate(),sysdate());
+VALUES ('Salvatore', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cedric', 'him',sysdate(),sysdate());
+VALUES ('Cedric', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lowell', 'him',sysdate(),sysdate());
+VALUES ('Lowell', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gregg', 'him',sysdate(),sysdate());
+VALUES ('Gregg', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sherman', 'him',sysdate(),sysdate());
+VALUES ('Sherman', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wilson', 'him',sysdate(),sysdate());
+VALUES ('Wilson', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Devin', 'him',sysdate(),sysdate());
+VALUES ('Devin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sylvester', 'him',sysdate(),sysdate());
+VALUES ('Sylvester', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roosevelt', 'him',sysdate(),sysdate());
+VALUES ('Roosevelt', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Israel', 'him',sysdate(),sysdate());
+VALUES ('Israel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jermaine', 'him',sysdate(),sysdate());
+VALUES ('Jermaine', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Forrest', 'him',sysdate(),sysdate());
+VALUES ('Forrest', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wilbert', 'him',sysdate(),sysdate());
+VALUES ('Wilbert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Leland', 'him',sysdate(),sysdate());
+VALUES ('Leland', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Simon', 'him',sysdate(),sysdate());
+VALUES ('Simon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clark', 'him',sysdate(),sysdate());
+VALUES ('Clark', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Irving', 'him',sysdate(),sysdate());
+VALUES ('Irving', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Carroll', 'him',sysdate(),sysdate());
+VALUES ('Carroll', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bryant', 'him',sysdate(),sysdate());
+VALUES ('Bryant', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Owen', 'him',sysdate(),sysdate());
+VALUES ('Owen', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rufus', 'him',sysdate(),sysdate());
+VALUES ('Rufus', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Woodrow', 'him',sysdate(),sysdate());
+VALUES ('Woodrow', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sammy', 'him',sysdate(),sysdate());
+VALUES ('Sammy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Kristopher', 'him',sysdate(),sysdate());
+VALUES ('Kristopher', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Mack', 'him',sysdate(),sysdate());
+VALUES ('Mack', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Levi', 'him',sysdate(),sysdate());
+VALUES ('Levi', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marcos', 'him',sysdate(),sysdate());
+VALUES ('Marcos', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gustavo', 'him',sysdate(),sysdate());
+VALUES ('Gustavo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jake', 'him',sysdate(),sysdate());
+VALUES ('Jake', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lionel', 'him',sysdate(),sysdate());
+VALUES ('Lionel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marty', 'him',sysdate(),sysdate());
+VALUES ('Marty', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Taylor', 'him',sysdate(),sysdate());
+VALUES ('Taylor', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ellis', 'him',sysdate(),sysdate());
+VALUES ('Ellis', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dallas', 'him',sysdate(),sysdate());
+VALUES ('Dallas', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Gilberto', 'him',sysdate(),sysdate());
+VALUES ('Gilberto', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clint', 'him',sysdate(),sysdate());
+VALUES ('Clint', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Nicolas', 'him',sysdate(),sysdate());
+VALUES ('Nicolas', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Laurence', 'him',sysdate(),sysdate());
+VALUES ('Laurence', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ismael', 'him',sysdate(),sysdate());
+VALUES ('Ismael', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Orville', 'him',sysdate(),sysdate());
+VALUES ('Orville', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Drew', 'him',sysdate(),sysdate());
+VALUES ('Drew', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ervin', 'him',sysdate(),sysdate());
+VALUES ('Ervin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dewey', 'him',sysdate(),sysdate());
+VALUES ('Dewey', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Al', 'him',sysdate(),sysdate());
+VALUES ('Al', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Wilfred', 'him',sysdate(),sysdate());
+VALUES ('Wilfred', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Josh', 'him',sysdate(),sysdate());
+VALUES ('Josh', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Hugo', 'him',sysdate(),sysdate());
+VALUES ('Hugo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ignacio', 'him',sysdate(),sysdate());
+VALUES ('Ignacio', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Caleb', 'him',sysdate(),sysdate());
+VALUES ('Caleb', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tomas', 'him',sysdate(),sysdate());
+VALUES ('Tomas', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Sheldon', 'him',sysdate(),sysdate());
+VALUES ('Sheldon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Erick', 'him',sysdate(),sysdate());
+VALUES ('Erick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Frankie', 'him',sysdate(),sysdate());
+VALUES ('Frankie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Stewart', 'him',sysdate(),sysdate());
+VALUES ('Stewart', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Doyle', 'him',sysdate(),sysdate());
+VALUES ('Doyle', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darrel', 'him',sysdate(),sysdate());
+VALUES ('Darrel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rogelio', 'him',sysdate(),sysdate());
+VALUES ('Rogelio', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Terence', 'him',sysdate(),sysdate());
+VALUES ('Terence', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Santiago', 'him',sysdate(),sysdate());
+VALUES ('Santiago', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Alonzo', 'him',sysdate(),sysdate());
+VALUES ('Alonzo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elias', 'him',sysdate(),sysdate());
+VALUES ('Elias', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bert', 'him',sysdate(),sysdate());
+VALUES ('Bert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elbert', 'him',sysdate(),sysdate());
+VALUES ('Elbert', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Ramiro', 'him',sysdate(),sysdate());
+VALUES ('Ramiro', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Conrad', 'him',sysdate(),sysdate());
+VALUES ('Conrad', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Noah', 'him',sysdate(),sysdate());
+VALUES ('Noah', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Grady', 'him',sysdate(),sysdate());
+VALUES ('Grady', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Phil', 'him',sysdate(),sysdate());
+VALUES ('Phil', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cornelius', 'him',sysdate(),sysdate());
+VALUES ('Cornelius', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Lamar', 'him',sysdate(),sysdate());
+VALUES ('Lamar', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Rolando', 'him',sysdate(),sysdate());
+VALUES ('Rolando', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Clay', 'him',sysdate(),sysdate());
+VALUES ('Clay', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Percy', 'him',sysdate(),sysdate());
+VALUES ('Percy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dexter', 'him',sysdate(),sysdate());
+VALUES ('Dexter', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Bradford', 'him',sysdate(),sysdate());
+VALUES ('Bradford', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Merle', 'him',sysdate(),sysdate());
+VALUES ('Merle', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darin', 'him',sysdate(),sysdate());
+VALUES ('Darin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Amos', 'him',sysdate(),sysdate());
+VALUES ('Amos', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Terrell', 'him',sysdate(),sysdate());
+VALUES ('Terrell', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Moses', 'him',sysdate(),sysdate());
+VALUES ('Moses', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Irvin', 'him',sysdate(),sysdate());
+VALUES ('Irvin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Saul', 'him',sysdate(),sysdate());
+VALUES ('Saul', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Roman', 'him',sysdate(),sysdate());
+VALUES ('Roman', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darnell', 'him',sysdate(),sysdate());
+VALUES ('Darnell', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Randal', 'him',sysdate(),sysdate());
+VALUES ('Randal', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Tommie', 'him',sysdate(),sysdate());
+VALUES ('Tommie', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Timmy', 'him',sysdate(),sysdate());
+VALUES ('Timmy', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Darrin', 'him',sysdate(),sysdate());
+VALUES ('Darrin', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Winston', 'him',sysdate(),sysdate());
+VALUES ('Winston', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Brendan', 'him',sysdate(),sysdate());
+VALUES ('Brendan', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Toby', 'him',sysdate(),sysdate());
+VALUES ('Toby', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Van', 'him',sysdate(),sysdate());
+VALUES ('Van', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Abel', 'him',sysdate(),sysdate());
+VALUES ('Abel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Dominick', 'him',sysdate(),sysdate());
+VALUES ('Dominick', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Boyd', 'him',sysdate(),sysdate());
+VALUES ('Boyd', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Emilio', 'him',sysdate(),sysdate());
+VALUES ('Emilio', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Elijah', 'him',sysdate(),sysdate());
+VALUES ('Elijah', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Cary', 'him',sysdate(),sysdate());
+VALUES ('Cary', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Domingo', 'him',sysdate(),sysdate());
+VALUES ('Domingo', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Santos', 'him',sysdate(),sysdate());
+VALUES ('Santos', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Aubrey', 'him',sysdate(),sysdate());
+VALUES ('Aubrey', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Emmett', 'him',sysdate(),sysdate());
+VALUES ('Emmett', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Marlon', 'him',sysdate(),sysdate());
+VALUES ('Marlon', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Emanuel', 'him',sysdate(),sysdate());
+VALUES ('Emanuel', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Jerald', 'him',sysdate(),sysdate());
+VALUES ('Jerald', 'him, he',sysdate(),sysdate());
 INSERT INTO characters (text, alt_text,createdAt,updatedAt)
-VALUES ('Edmond', 'him',sysdate(),sysdate());
+VALUES ('Edmond', 'him, he',sysdate(),sysdate());

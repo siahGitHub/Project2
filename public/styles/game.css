@@ -1,5 +1,6 @@
 
   .board{
+    border-radius: 0 25px 25px 25px; 
     /* margin: 10px; */
     border: 1px solid black;
     display: inline-block;
@@ -7,6 +8,9 @@
     /* color:white; */
   } 
   
+  .game-tab-border{
+    border-radius: 0 25px 25px 25px; 
+  }
   .board-entry-text{
     font-size: 11pt;
   }
@@ -129,10 +133,14 @@
     color:white;
   }
   #countdown{
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
   }
 
   .nav-tab-btn{
     height: 30px; 
     padding-top:1.5px;
+  }
+  .story-tab {
+    height: 300px; 
+    overflow-y: scroll;
   }

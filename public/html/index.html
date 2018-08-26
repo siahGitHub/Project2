@@ -31,8 +31,8 @@
     <script type="text/javascript" src="../js/adjList.js"></script>
     <script type="text/javascript" src="../js/verbList.js"></script>
     <script type="text/javascript" src="../js/names.js"></script>
+    <script type="text/javascript" src="../js/stories.js"></script>
     <script type="text/javascript" src="../js/game.js"></script>
-    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/game.css">
     <link rel="stylesheet" href="../styles/nav.css">
 
@@ -55,7 +55,8 @@
               <li><a href="#">Watch and Vote</a></li>
           </ul>
         </li>
-        <li>
+        <li><a href="#">Browse Previous Stories</a></li>
+        <!-- <li>
           <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Browse Previous Stories</a>
           <ul class="collapse list-unstyled" id="pageSubmenu">
               <li><a href="#">Horror</a></li>
@@ -65,7 +66,7 @@
               <li><a href="#">Buddy/Hero Adventure</a></li>
               <li><a href="#">Romance/Relationship</a></li>
           </ul>
-        </li>
+        </li> -->
         <li><a href="#">About</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
@@ -112,93 +113,8 @@
               </div>
             </div>
           </div>
-          <div id="demo" class="col-lg-6">
-            <div class="border border-dark text-center">
-              Entry Demo
-            </div>
-            <div id="game-holder" style="display:none;">
-              <div class="progress">
-                <div class="progress-bar round-progress" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-              <div class="nav d-flex flex-row">
-                <button class="nav-link nav-tab-btn active" data-toggle="tab" href="#gameTab">Your Entry</button>
-                <button class="nav-link nav-tab-btn" data-toggle="tab" href="#storyTab">Story So Far</button>
-              </div>
-              <div class="tab-content">
-                <div id="gameTab" class="container tab-pane active border border-dark">
-                  <div class="board">
-                    <div class="sc-row">
-                      <div class="sc-holder">
-                        <div id="sc-Characters" class="segment-card">
-                          <div class="sc-setup sc-back stroke-text Characters">Characters</div>
-                          <div id="sc-Characters-front" class="sc-setup sc-front">
-                            <div class="sc-front-title">Characters</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="sc-holder">
-                        <div id="sc-Verbs" class="segment-card">
-                          <div class="sc-setup sc-back stroke-text Verbs">Verbs</div>
-                          <div id="sc-Verbs-front" class="sc-setup sc-front">
-                            <div class="sc-front-title">Verbs</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="sc-holder">
-                        <div id="sc-Adjectives" class="segment-card">
-                          <div class="sc-setup sc-back stroke-text Adjectives">Adjectives</div>
-                          <div id="sc-Adjectives-front" class="sc-setup sc-front">
-                            <div class="sc-front-title">Adjectives</div>
-                            <!-- <div class="sc-front-item">Tough</div> -->
-                          </div>  
-                        </div>
-                      </div>
-                  </div> <!--segment-cards-->
-                    <div class="d-flex flex-row justify-content-between">
-                      <div>What happens next is up to you...</div>
-                      <div>
-                        <span id="segment-char-rem" class="mr-1">250 </span>Characters Remaining
-                      </div>
-                    </div><!--input label and charcters remaining-->
-                    <textarea id="snippet-text" oninput="snippetUpdate()" class="form-control board-entry-text" id="snippet-sub-text" rows="3" disabled></textarea>
-                    </textarea><!--snippet input-->
-                    <div class="d-flex flex-row mt-2 mb-0 justify-content-around">
-                        <div id="segment-req" class="d-flex justify-content-between bg-white border border-dark rounded text-dark">
-                          <div class="d-flex-column segment-req-list-col fa-md text-left">
-                            <div class="d-flex flex-row">
-                              <img id="sc-char-status" src="../images/square-outline-green-check.svg">
-                              <div>Character</div>
-                            </div>
-                            <div class="d-flex flex-row">
-                              <img id="sc-adj-status" src="../images/square-outline-red.svg">
-                              <div>Adjective</div>
-                            </div>
-                          </div>
-                          <div class="segment-req-list-col">
-                            <div class="d-flex flex-row">
-                              <img id="sc-verb-status" src="../images/square-outline-black.svg">
-                              <div>Verb</div>
-                            </div>
-                          </div>
-                        </div>
-                        <div id="countdown" class="text-center mb-0">
-                            <div id="coundown-div">
-                                <span id="countdown-sec"></span><span id="countdown-text" style="display:none;"> seconds left</span>
-                            </div>
-                        </div>
-                    </div><!--requirements and countdown-->
-                    <div class="d-flex flex-row justify-content-around m-2 border-top border-light">
-                      <button id="submit-snippet" class="btn btn-success px-5 mt-1">Ready to lock it in!?</button>
-                      <button id="exit-game" onClick="swal.Close(); return false;" class="btn btn-danger px-5 mt-1">Leave Game?</button>
-                    </div><!--buttons: lock in or Leave-->
-                  </div> <!--game board-->
-                </div> <!--game tab content-->
-                <div id="storyTab" class="container tab-pane fade border border-dark">
-                Stuff
-                </div><!--story tab content-->
-              </div><!--tabs container-->
-            </div> <!--game holder-->
-          </div> <!--col-md-6-->
+          <div id="snippetDisplay" class="col-lg-6">
+          </div> <!--demo   col-md-6-->
         </div> <!--row-->
       </div> <!--content > container-->
     </div> <!--content-->
