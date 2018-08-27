@@ -17,13 +17,13 @@ module.exports = function(app) {
       // console.log(dbGenres);
     });
   });
-
+/*
   app.get("/welcome", function(req, res) {
       res.render("welcome", {
         // msg: "Welcome!"
       });
   });
-
+*/
   // Load example page and pass in an example by id
   app.get("/story/:id", function(req, res) {
     db.Story.findOne({ where: { id: req.params.id } }).then(function(dbExample) {
