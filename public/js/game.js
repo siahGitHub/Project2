@@ -67,9 +67,13 @@ var GameBoard = function() {
             await activeBoard.SetRoundSnippet(true);    
             await activeBoard.InitSnippet(true);    
             $('#snippetDisplay').append(activeBoard.shellDiv)
-            $('#countdown').removeClass('bg-danger border border-white rounded')
-            $('#coundown-div').removeClass('animated tada infinite countdown-alert');
-            await toggleWait();
+            setTimeout(function(){
+                $('#countdown').hide();
+                $('.progress').hide()
+                console.log('huh')
+                    // $('#countdown').removeClass('bg-danger border border-white rounded')
+                    // $('#coundown-div').removeClass('animated tada infinite countdown-alert');
+            },300)
         },
         leaveClicked: async function(){
             var swalAlertSettings = {title:'Deleted!', text:'You have been exited from the game', type:'success'}
