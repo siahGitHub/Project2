@@ -30,7 +30,7 @@ var fillServerData = async function(){
 
 
 var GameBoard = function() {
-    this.snippetTimeLimit = 2000; //in milliseconds
+    this.snippetTimeLimit = 30000; //in milliseconds
     this.timeBetweenSCFlips = 300; //in milliseconds
     this.snippetSegmentFullArray = [];//[CharactersArr,VerbsArr,AdjArr] formerly "data"
     this.killTypeIt = false;
@@ -58,11 +58,6 @@ var GameBoard = function() {
 
         },
         timeExpired: async function(activeBoard){
-            var toggleWait = async function(){
-                if($('#coundown-div',this.shellDiv).hasClass('infinite')){
-                    console.log('huh')
-                }
-            }
             clearInterval(activeBoard.timerInterval);
             await activeBoard.SetRoundSnippet(true);    
             await activeBoard.InitSnippet(true);    
@@ -76,7 +71,7 @@ var GameBoard = function() {
             },300)
         },
         leaveClicked: async function(){
-            var swalAlertSettings = {title:'Deleted!', text:'You have been exited from the game', type:'success'}
+            var swalAlertSettings = {title:'You Outta There!', text:'You have been exited from the game', type:'success'}
             this.killTypeIt = false;
             swal(swalAlertSettings);
         },
@@ -489,7 +484,7 @@ $(document).ready(function (e) {
         });
     });
     
-    $("#RunCard").on('click',function(){
+    $("#joinIn").on('click',function(){
         gameHolder.promptSnippetBoard();
     });
 
