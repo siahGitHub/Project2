@@ -1,25 +1,3 @@
-
-// <div id="navbar-example">
-// <ul class="nav nav-tabs" role="tablist">
-//     <div id="list-example" class="list-group">
-//       <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
-//       <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
-//       <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-//       <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
-//     </div>
-//     <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-//       <h4 id="list-item-1">Item 1</h4>
-//       <p>...</p>
-//       <h4 id="list-item-2">Item 2</h4>
-//       <p>...</p>
-//       <h4 id="list-item-3">Item 3</h4>
-//       <p>...</p>
-//       <h4 id="list-item-4">Item 4</h4>
-//       <p>...</p>
-//     </div>
-// </ul>
-// </div>
-
 Array.prototype.clean = function(deleteValue) {
     for (var i = 0; i < this.length; i++) {
         if (this[i] == deleteValue) {         
@@ -29,89 +7,170 @@ Array.prototype.clean = function(deleteValue) {
     }
     return this;
 };
-var timeExpired = async function(){   
+let gameHolder;
+let timerInterval;
+let allDataArr = [];
+
+var fillServerData = async function(){
+    var urlArry = ['chars','verbs','adjectives'];
+    var dataArray = [];
+    for (var i = 0; i < 3; i++) {
+        await fetch('/api/'+urlArry[i])
+            .then(function(response) {
+                return response.json();
+            })
+            .then(function(myJson) {
+                dataArray.push(myJson);
+
+            });
+        }
+    allDataArr = dataArray
 }
+
+
+
 var GameBoard = function() {
-    this.snippetTimeLimit = 13000; //in milliseconds
+    this.snippetTimeLimit = 2000; //in milliseconds
     this.timeBetweenSCFlips = 300; //in milliseconds
     this.snippetSegmentFullArray = [];//[CharactersArr,VerbsArr,AdjArr] formerly "data"
-    this.randomSnippetEntryText;
-    this.verbStatsUpdate = {};
-    this.adjStatsUpdate = {};
-    this.charStatsUpdate = {};
     this.killTypeIt = false;
-    this.snippetTextEntryElement;
-    this.submitButton;
-    this.leaveButton;
     this.shellDiv;
     this.tabInputDiv;
     this.tabInputBtnDiv;
     this.tabStoryDiv;
-    this.timerInterval;
     this.apiCallFunctions = {
-        setData: async function(){
-            var getTextArray = function (array) {
-                function getRndInteger(min, max) {
-                    return Math.floor(Math.random() * (max - min + 1) ) + min;
+        setData: async function(snippetSegmentFullArray){
+            await fillServerData()
+            snippetSegmentFullArray = [];
+            function getRndInteger(min, max) {
+                return Math.floor(Math.random() * (max - min + 1) ) + min;
+            }
+            for (var i = 0; i < 3; i++) {
+                var subObjectArray = allDataArr[i];      
+                for (var objIndex = 0; objIndex < 3; objIndex++) {
+                var listItemObject = (subObjectArray[getRndInteger(0,subObjectArray.length - 1)]);
+                    snippetSegmentFullArray.push(listItemObject)
                 }
-                var fullArray = [];
-                for (var i = 0; i < 3; i++) {
-                    var listItemObject = (array[getRndInteger(0,array.length - 1)]);
-                    var listItemArr = []
-                    listItemArr.push(listItemObject.text)
-                    var altTxt = listItemObject.alt_text.split(',')
-                    listItemArr = listItemArr.concat(altTxt.clean(''))
-                    listItemArr.push(listItemObject.id)
-                    fullArray.push(listItemArr);
-                }
-                return fullArray;
-            };
-            // charList
-            // verbList
-            // adjList
-            snippetSegmentFullArray = [
-                getTextArray(charList),
-                getTextArray(verbList),
-                getTextArray(adjList)
-            ];
-            return snippetSegmentFullArray;
+            }
+            return snippetSegmentFullArray
         }, 
         getStoryText: async function() {
 
         },
-        timeExpired: async function(){
-            await this.InitSnippet();    
-            $('#snippetDisplay').append(this.shellDiv)    
+        timeExpired: async function(activeBoard){
+            var toggleWait = async function(){
+                if($('#coundown-div',this.shellDiv).hasClass('infinite')){
+                    console.log('huh')
+                }
+            }
+            clearInterval(activeBoard.timerInterval);
+            await activeBoard.SetRoundSnippet(true);    
+            await activeBoard.InitSnippet(true);    
+            $('#snippetDisplay').append(activeBoard.shellDiv)
+            $('#countdown').removeClass('bg-danger border border-white rounded')
+            $('#coundown-div').removeClass('animated tada infinite countdown-alert');
+            await toggleWait();
         },
         leaveClicked: async function(){
             var swalAlertSettings = {title:'Deleted!', text:'You have been exited from the game', type:'success'}
             this.killTypeIt = false;
             swal(swalAlertSettings);
         },
-        LockInClick: async function () {
-            // var submittedSnipperText = $("#snippet-text").val();
-            // if(isCompleteSnippet(submittedSnipperText)) {
-            //     $('#submit-snippet').addClass('disabled');
-            //     $('#submit-snippet').prop('disabled',true);
-            //     $('#snippet-text').prop('disabled',true);
-            //     gameActive = false;
-            // } else {
-            //     $('#segment-req').removeClass("border-dark").addClass('border-danger');
-            //     animateElement('segment-req','tada');
-            // }
-    
-            //discuss next
-            // clearInterval(timerInterval);
-            // swal.close()
-        } 
+        submitSnippetClicked: function (snippetSegmentFullArray) {
+            function typeIt(i) {
+                switch(true){
+                    case i<3:
+                        return 'char';
+                    case i<6:
+                        return 'verb';
+                    case i<9:
+                        return 'adj';
+                };
+            }
+            var isCompleteSnippet = function(snippetSegmentFullArray){
+                var getMatchIdArray = function(){
+                    var submissionSnippetVal = $('#snippet-text').val().trim().toLowerCase();
+
+                    var matchIdArray = []
+                    for(i = 0; i < 9; i++) {
+                        var matchObj = {
+                            id: -1,
+                            text:'',
+                            type:-1
+                        }
+                        var data = snippetSegmentFullArray[i]
+                        var dispText = data.text;
+                        var altArr = data.alt_text.split(',');
+                        dispText = dispText.toLowerCase();
+                        
+                        if(submissionSnippetVal.indexOf(dispText) > -1) {
+                            matchObj.id = data.id;
+                            matchObj.text = dispText;
+                            matchObj.type = typeIt(i);
+                            matchIdArray.push(matchObj)
+                        }else {
+                            for (altInd = 0; altInd < altArr.length-1; altInd++){
+                                var altText = altArr[altInd]
+                                altText = altText.toLowerCase()
+                                if(submissionSnippetVal.indexOf(altText) > -1) {
+                                    matchObj.id = data.id;
+                                    matchObj.text = altText;
+                                    matchObj.type = typeIt(i);
+                                    matchIdArray.push(matchObj)
+                                }
+                            }
+                        }
+                    }
+                    return matchIdArray;
+                }
+                function setSubmissionStatus(element, isListed) {
+                    if (isListed) {
+                        $(element).attr('src','../images/square-outline-green-check.svg')
+                    } else {
+                        $(element).attr('src','../images/square-outline-red.svg')
+                    }
+                };
+                var entryIdArr = getMatchIdArray();
+                var matchGroup = [false,false,false];
+                for(i = 0; i < entryIdArr.length; i++) {
+                    switch(entryIdArr[i].type){
+                        case 'char':
+                        matchGroup[0] = true;
+                        break;
+                        case 'adj':
+                        matchGroup[1] = true;
+                        break;
+                        case 'verb':
+                        matchGroup[2] = true;
+                        break;
+                    }
+                }
+                setSubmissionStatus($('#sc-char-status',this.tabInputDiv),matchGroup[0]);
+                setSubmissionStatus($('#sc-verb-status',this.tabInputDiv),matchGroup[1]);
+                setSubmissionStatus($('#sc-adj-status',this.tabInputDiv),matchGroup[2]);
+
+                if(matchGroup[0] && (matchGroup[1] || matchGroup[2])) {
+                    clearInterval(timerInterval);
+                    swal.close();
+                }
+            }
+            isCompleteSnippet(snippetSegmentFullArray);
+        },
+        submitVoteClicked: async function () {
+            clearInterval(timerInterval);
+            swal.close()
+        }
+    };
+    this.timeExpired = async function(){
+        clearInterval(this.timerInterval);
+        await this.InitSnippet(true);    
+        $('#snippetDisplay').append(this.shellDiv)    
     }
     this.SetStory = async function(htVal, divHolder){
         if(typeof htVal === 'number'){
         }
         $('#storyTab').height(htVal);
-        console.log(storyList[3].text)
         var div = $('#rollingStory')
-        console.log(div.html())
         div.text(storyList[3].text)
     };
     this.typeIt = function (){
@@ -141,21 +200,16 @@ var GameBoard = function() {
     };
     this.InitSnippet = async function(isDemo){
         getRandomDemoText = function () {
-            function getGentderTemp(charAltStr){
-                if(charAltStr ==='him') {
-                    return 'he'
-                } else {
-                    return 'she'
-                }
-            }
             function getRndInteger(min, max) {
                 return Math.floor(Math.random() * (max - min + 1) ) + min;
             }        
             var charNum = getRndInteger(0,2)
             return `When ${this.snippetSegmentFullArray[0][charNum][0]} found the butler with a knife to the chest ${getGentderTemp(this.snippetSegmentFullArray[0][charNum][1])} ${getLower(this.snippetSegmentFullArray[2][getRndInteger(0,2)][1])} ${this.snippetSegmentFullArray[1][getRndInteger(0,2)][1]} the wound and called for help.`;
         };
-        await this.SetRoundSnippet();
+        if(!(await this.SetRoundSnippet(isDemo))) {
 
+        }
+        
         if (isDemo) {
             this.killTypeIt = false;
             await this.animateElement(this.shellDiv,'lightSpeedIn');
@@ -170,14 +224,22 @@ var GameBoard = function() {
         setTimeout(function(){flipIt($('#sc-Adjective',this.tabInputDiv))},this.timeBetweenSCFlips*3);
         // this.SetStory()
     };
-    this.SetRoundSnippet = async function(){
-        // var dataLoadSuccess =  this.apiCallFunctions.setData();
-        var snippetSegmentFullArray = await this.apiCallFunctions.setData();
-        // if(!dataLoadSuccess) {
-        //     swal('There was an error retriving snippet data')
-        //     return false
-        // };
+    this.SetRoundSnippet = async function(isDemo){
+        this.snippetSegmentFullArray = await this.apiCallFunctions.setData(this.snippetSegmentFullArray);
         await this.refreshGameBoard();
+
+        var displayArray = [];
+        for (var i = 0; i < 9; i++) {
+            var data = this.snippetSegmentFullArray[i]
+            var text = data.text;
+            var dataId = `data-id="${data.id}"`
+            var alt = `data-alt-text="${data.alt_text}"`
+            if(i>2) {
+                text = text.toLowerCase();
+                alt = alt.toLowerCase();
+            }
+            displayArray.push(`<div class="sc-front-item" ${dataId} ${alt}>${text}</div>`)
+        }
         $(this.tabInputDiv).html(`
             <div class="sc-row">
                 <div class="sc-holder">
@@ -185,9 +247,7 @@ var GameBoard = function() {
                         <div class="sc-setup sc-back stroke-text Characters">Characters</div>
                         <div id="sc-Characters-front" class="sc-setup sc-front">
                             <div class="sc-front-title">Characters</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[0][0][0]}</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[0][1][0]}</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[0][2][0]}</div>
+                            ${displayArray[0]}${displayArray[1]}${displayArray[2]}
                         </div>
                     </div>
                 </div>
@@ -196,9 +256,7 @@ var GameBoard = function() {
                         <div class="sc-setup sc-back stroke-text Verbs">Verbs</div>
                         <div id="sc-Verbs-front" class="sc-setup sc-front">
                             <div class="sc-front-title">Verbs</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[1][0][0]}</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[1][1][0]}</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[1][2][0]}</div>
+                            ${displayArray[3]}${displayArray[4]}${displayArray[5]}
                         </div>
                     </div>
                 </div>
@@ -207,9 +265,7 @@ var GameBoard = function() {
                     <div class="sc-setup sc-back stroke-text Adjectives">Adjectives</div>
                         <div id="sc-Adjectives-front" class="sc-setup sc-front">
                             <div class="sc-front-title">Adjectives</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[2][0][0]}</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[2][1][0]}</div>
-                            <div class="sc-front-item">${snippetSegmentFullArray[2][2][0]}</div>
+                            ${displayArray[6]}${displayArray[7]}${displayArray[8]}
                         </div>  
                     </div>
                 </div>
@@ -217,7 +273,7 @@ var GameBoard = function() {
             <div class="d-flex flex-row justify-content-between">
                 <div>What happens next is up to you...</div>
                 <div id="charcters-remaining">
-                    <span id="segment-char-rem" class="mr-1">250 </span>Characters Remaining
+                   <!-- <span id="segment-char-rem" class="mr-1">250 </span>Characters Remaining -->
                 </div>
             </div><!--input label and charcters remaining-->
             <textarea id="snippet-text" class="form-control board-entry-text" id="snippet-sub-text" rows="3" disabled></textarea>
@@ -239,13 +295,24 @@ var GameBoard = function() {
                 </div>
             </div><!--requirements and countdown-->
         </div>`)
-        await this.AppendButtons();
-        this.snippetTextEntryElement = $('#snippet-text',this.tabInputDiv);
+        var btnIDText;
+        if(isDemo) {
+            btnIDText = 'demo'
+        } else {
+            btnIDText = 'snippet'
+        }
+        await this.AppendButtons(btnIDText);
     };
-    this.AppendButtons = async function(){
+    this.AppendButtons = async function(btnIDText){
         var buttonDiv = $('<div>').addClass("d-flex flex-row justify-content-around m-2 border-top border-light");
-        this.submitButton = $('<button>').attr('id','#submit-snippet').addClass('btn btn-success px-5 mt-1').text('Ready to lock it in?')
-        this.leaveButton = $('<button>').attr('id','#exit-game').addClass('btn btn-danger px-5 mt-1').text('Leave Game')
+        this.submitButton = $('<button>')
+            .addClass('btn btn-success px-5 mt-1')
+            .text('Ready to lock it in?')
+            .attr('id',`${btnIDText}-submit`)
+        this.leaveButton = $('<button>')
+            .addClass('btn btn-danger px-5 mt-1')
+            .text('Leave Game')
+            .attr('id',`${btnIDText}-exit`)
         buttonDiv.append(this.submitButton);
         buttonDiv.append(this.leaveButton);
         $(this.tabInputDiv).append(buttonDiv);
@@ -268,53 +335,12 @@ var GameBoard = function() {
                     </div>
                 </div><!--story tab content-->
             </div><!--tabs container-->
-        </div> <!--game holder-->`)
+        </div> <!--game holder-->`);
         this.shellDiv = $('<div>');
         this.tabInputBtnDiv = $('#tab-button-input',newMainDiv);
         this.tabInputDiv = $('#tab-input',newMainDiv);
         this.tabStoryDiv = $('#tab-story',newMainDiv);
         this.shellDiv.append(newMainDiv);
-    };
-    this.isCompleteSnippet = async function(){
-        var getMatchIdArray = async function(){
-            var submissionSnippetVal = $(this.snippetTextEntryElement).val().trim().toLowerCase();
-            var matchIdArray = []; //Character,Verb,Adjective
-            for (snippetSegmentTypeIndex = 0; snippetSegmentTypeIndex < 3; snippetSegmentTypeIndex++) {
-                var snippetSegmentTypeArray = this.snippetSegmentFullArray[snippetSegmentTypeIndex];
-                for(snippetSegmentValueIndex = 0; snippetSegmentValueIndex < 3; snippetSegmentValueIndex++) {
-                    var snippetSegmentValueArray = snippetSegmentTypeArray[snippetSegmentValueIndex]
-                    var snippetSegmentValueIdIndex = snippetSegmentValueArray.length - 1 //the last value in the entry array is the ID
-                    
-                    for(snippetSegmentValueEntryIndex = 0; snippetSegmentValueEntryIndex < snippetSegmentValueIdIndex; snippetSegmentValueEntryIndex++) {
-                        var snippetSegmentValueEntry = snippetSegmentValueArray[snippetSegmentValueEntryIndex];
-                        var snippetSegmentIdVal = snippetSegmentValueArray[snippetSegmentValueIdIndex];
-                        var matchingIdNum = -1;
-                        snippetSegmentValueEntry = snippetSegmentValueEntry.toLowerCase();
-                        if(submissionSnippetVal.indexOf(snippetSegmentValueEntry) > -1) matchingIdNum = snippetSegmentIdVal;
-                    }
-                }
-                matchIdArray.push(matchingIdNum);
-            }
-            return matchIdArray;
-        }        
-        function setSubmissionStatus(element, isMissing) {
-            if (isMissing) {
-                $(element).attr('src','../images/square-outline-red.svg')
-            } else {
-                $(element).attr('src','../images/square-outline-green-check.svg')
-            }
-        }
-        
-        var entryIdArr = await getMatchIdArray();
-        setSubmissionStatus($('#sc-char-status',this.tabInputDiv),entryIdArr[0] < 0);
-        setSubmissionStatus($('#sc-verb-status',this.tabInputDiv),entryIdArr[1] < 0);
-        setSubmissionStatus($('#sc-adj-status',this.tabInputDiv),entryIdArr[2] < 0);
-
-        if(entryIdArr[0] < 0 || (entryIdArr[1] < 0 && entryIdArr[2] < 0)){
-            return false;
-        } else {
-            return true;
-        }
     };
     this.animateElement = async function(element, aniName, duration){
         $(element).addClass(`animated ${aniName}`)
@@ -392,16 +418,14 @@ var GameBoard = function() {
         previousSecondsRemainingInRound = secondsRemainingInRound;
     };
     this.promptSnippetBoard = async function(){
+        var activeBoard = this;
+        var timesUp = this.timeExpired
         $('#snippetDisplay').html('')
         this.killTypeIt = true;
         await this.InitSnippet();
         $('#snippet-text',this.shellDiv).prop('disabled',false);
         let html = this.shellDiv.html()
-        
-        // console.log(html);
-        let timerInterval
-        let selectionCompleted = false;
-        swal({
+        await swal({
             html: html,
             timer: this.snippetTimeLimit, //snippetTimeLimit
             width: '600px',
@@ -410,38 +434,25 @@ var GameBoard = function() {
             allowEnterKey: false,
             showConfirmButton:false,
             onOpen: () => {
-                $('#submit-snippet').on('click',function(){
-    
-                });
-                $('#exit-game').on('click',async function(){
-                    leaveClicked();
-                    clearInterval(timerInterval);
-                    swal.close()
-                });
-                timerInterval = setInterval(() => {
+                $('#snippet-submit').on('click',function(){
+                    activeBoard.apiCallFunctions.submitSnippetClicked(activeBoard.snippetSegmentFullArray)
+                })
+                $('#snippet-exit').on('click',this.apiCallFunctions.leaveClicked);
+                    timerInterval = setInterval(() => {
                     let previousSecondsRemainingInRound = 0;
                     this.updateTimeRemaining('snippet',swal.getTimerLeft(),previousSecondsRemainingInRound)
                 }, 100);
             },
             onClose: () => {
-                clearInterval(timerInterval);
-                    // if(!selectionCompleted) {
-                    this.InitSnippet();    
-                    $('#snippetDisplay').append(this.shellDiv) 
-                    // }
-                }
+                activeBoard.apiCallFunctions.timeExpired(activeBoard);
+            }
         })
     };
 };
 
 var getStoryText = async function(){
 
-}
-
-//--------------Launch Functions----------------
-
-
-let gameHolder;
+};
 async function establishSplash(){
     gameHolder = await new GameBoard;
     await gameHolder.InitSnippet(true);
@@ -457,15 +468,30 @@ function sideExpand(){
     $('.collapse.in').toggleClass('in');
     $('a[aria-expanded=true]').attr('aria-expanded', 'false');
 }
+
 $(document).ready(function (e) {
     $("#sidebar").mCustomScrollbar({
         theme: "minimal"
     });
     $('#dismiss, .overlay').on('click', sideCollapse);
     $('#sidebarCollapse').on('click', sideExpand);
-
     establishSplash();
+
+    $("#signinbtn").on('click',function(){
+        $( "#signinbody" ).load( "/signin", function() {
+            $("#sidebar",this).remove();
+            $("#topnav",this).remove();
+            // alert( "Load was performed." );
+        });
+    });
+    
     $("#RunCard").on('click',function(){
         gameHolder.promptSnippetBoard();
     });
-});
+
+    $("#pullChar").on('click',function(){
+        fillServerData()
+    });
+})
+    
+    

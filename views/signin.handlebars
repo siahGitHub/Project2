@@ -1,9 +1,109 @@
+
+<nav id="topnav" class="d-flex flex-row justify-content-between sign-in">
+    <button class="sign-in" id="sidebarCollapse" >
+        <div class="d-flex flex-row align-items-center">
+            <div class="fas fa-align-left fa-lg"></div>
+            <div class="ml-2 fa-md">Menu</div>
+        </div>
+    </button>
+    <div class="text-center align-self-center">Hope you had a creative good time :) Sign back in to do it again!</div>
+    <button class="sign-in"  type="button" data-toggle="modal" data-target="#exampleModal">
+        <div class="d-flex flex-row align-items-center">
+            <div>Sign back </div>
+            <div class="mx-1">in</div>
+            <div class="fas fa-sign-in-alt fa-2x" style="color:white;"></div>
+        </div>
+    </button> 
+</nav>
+
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Login or Sign Up?</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body text-center d-flex flex-column">
+        <button id="signinbtn" class="btn btn-primary" type="button" data-toggle="modal" data-target="#signinModal" data-dismiss="modal">Sign In</button>
+        Or
+        <button class="btn btn-primary" type="button" data-toggle="modal" data-target="#signupModal" data-dismiss="modal">Register</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        {{!-- <button type="button" class="btn btn-primary">Save changes</button> --}}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
 <form id="signin" name="signin" method="post" action="signin">
-        <label for="email">Email Address</label>
-        <input class="text" name="email" type="text" />
-        <label for="password">Password</label>
-        <input name="password" type="password" />
+  <div class="row">
+    <div class="col text-center">
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input class="text" name="email" type="text" />
+        </div>
+        
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input name="password" type="password" />
+        </div>
         <input class="btn" type="submit" value="Sign In" />
-    </form>
+    </div>
+  </div>
+</form>
 <div>{{login_errors}}</div>
-<input type="button" class="btn btn-info" value="Sign Up" onclick="location.href = '/signup';">
+<div class="row">
+  <div class="col text-center"> 
+    <input type="button" class="btn btn-info" value="Register" onclick="location.href = '/signup';">
+  </div>
+</div>
+
+<script type="text/javascript" src="../js/signin.js"></script>
+
+
+<div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinmodal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Sign In</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div id="signinbody" class="modal-body">
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        {{!-- <button type="button" class="btn btn-primary">Save changes</button> --}}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Register</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       I'm Register
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        {{!-- <button type="button" class="btn btn-primary">Save changes</button> --}}
+      </div>
+    </div>
+  </div>
+</div>

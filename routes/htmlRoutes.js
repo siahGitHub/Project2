@@ -9,21 +9,21 @@ var db = require("../models");
 module.exports = function(app) {
   // Load index page
   app.get("/", function(req, res) {
-    db.Genre.findAll({}).then(function(dbGenres) {
+    // db.Genre.findAll({}).then(function(dbGenres) {
       res.render("index", {
-        msg: "Welcome!",
-        examples:dbGenres
-      });
-      console.log(dbGenres);
+      //   msg: "Welcome!",
+      //   examples:dbGenres
+      // });
+      // console.log(dbGenres);
     });
   });
-/*
-  app.get("/home", function(req, res) {
-      res.render("login", {
-        msg: "Welcome!"
+
+  app.get("/welcome", function(req, res) {
+      res.render("welcome", {
+        // msg: "Welcome!"
       });
   });
-*/
+
   // Load example page and pass in an example by id
   app.get("/story/:id", function(req, res) {
     db.Story.findOne({ where: { id: req.params.id } }).then(function(dbExample) {

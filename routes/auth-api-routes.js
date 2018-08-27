@@ -10,7 +10,6 @@ module.exports = function (app, passport) {
 
     app.post('/signup', passport.authenticate('local-signup', {
         successRedirect: '/index',
-
         failureRedirect: '/signup'
     }
 
@@ -25,14 +24,13 @@ module.exports = function (app, passport) {
     ));
 */
     app.post('/signin', passport.authenticate('local-signin', {
-        successRedirect: '/index',
+        successRedirect: '/welcome',
 
         failureRedirect: '/signin',
         failureMessage: "Invalid username or password"
     }));
 
-    app.get("/index", isLoggedIn, authController.index);
-
+    app.get("/welcome", isLoggedIn, authController.index);
     function isLoggedIn(req, res, next) {
  
         if (req.isAuthenticated())

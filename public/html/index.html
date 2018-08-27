@@ -17,8 +17,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 
-    <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- jQuery CDN --->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>  
     <!-- Popper.JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
@@ -56,17 +56,6 @@
           </ul>
         </li>
         <li><a href="#">Browse Previous Stories</a></li>
-        <!-- <li>
-          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false">Browse Previous Stories</a>
-          <ul class="collapse list-unstyled" id="pageSubmenu">
-              <li><a href="#">Horror</a></li>
-              <li><a href="#">Thriller</a></li>
-              <li><a href="#">Fantasy</a></li>
-              <li><a href="#">Comedy</a></li>
-              <li><a href="#">Buddy/Hero Adventure</a></li>
-              <li><a href="#">Romance/Relationship</a></li>
-          </ul>
-        </li> -->
         <li><a href="#">About</a></li>
         <li><a href="#">Contact Us</a></li>
       </ul>
@@ -80,7 +69,7 @@
               </div>
           </button>
           <div class="text-center align-self-center">Sign in to get in on the action!</div>
-          <button class="sign-in">
+          <button class="sign-in"  type="button" data-toggle="modal" data-target="#exampleModal">
               <div class="d-flex flex-row align-items-center">
                   <div>Sign </div>
                   <div class="mx-1">in</div>
@@ -99,13 +88,13 @@
                   <h6 class="card-subtitle text-muted mb-2">A fun community based atmosphere for sparking creativity</h6>
                   <div class="card-text">
                     When you're ready, click        
-                    <button class="sign-in rounded">
+                    <button class="sign-in rounded" type="button" data-toggle="modal" data-target="#loginModal">
                       <div class="d-flex flex-row align-items-center">
                           <div class="fa-md">Sign </div>
                           <div class="mx-1 fa-md">in</div>
                           <div class="fas fa-sign-in-alt fa-2x" style="color:white;"></div>
                       </div>
-                    </button> 
+                    </button > 
                      to create an account and get in on the fun.
                      <a id="RunCard" href="#" class="btn btn-primary">Show Entry</a>
                   </div>
@@ -120,6 +109,27 @@
     </div> <!--content-->
   </div> <!--wrapper--->
   <div class="overlay"></div>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sign in or Register/h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>

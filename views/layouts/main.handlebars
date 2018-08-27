@@ -2,36 +2,62 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<!-- Latest compiled and minified CSS & JS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Short Story Craft</title>
+    <!-- Animate CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <!-- Scrollbar Custom CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
 
-	<!-- Font Awesome Glyphicons -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <!-- jQuery CDN --->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>  
+    <!-- Popper.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <!-- jQuery Custom Scroller CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- SweetAlert2 CDN --> 
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.26.11/dist/sweetalert2.all.min.js" integrity="sha256-aWXJZ/4kdONPAkoIYYyE6fmVw0gqPEbnk7nspLANguI=" crossorigin="anonymous"></script>
 
-	<!-- Chosen used for easy validation of selector inputs-->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
-	<!--link rel="stylesheet" href="/assets/css/style.css" type="text/css" /-->
-	<title>Short Story Craft!</title>
-	<script src="https://code.jquery.com/jquery.js"></script>
-    <!--Need to create project2.js-->
-	<!--script src="/assets/js/project2.js"></script-->
+    <!-- Our Custom CSS -->
+    <link rel="stylesheet" href="../styles/game.css">
+    <link rel="stylesheet" href="../styles/nav.css">
 </head>
 
 <body>
-	<div class="container">
-		<h1 class="text-center">
-			<div class="jumbotron">
-				<span class="fa fa-book"></span> Short Story Craft</h1>
-				<hr>
+	<div class="wrapper"><!--wrapper-->
+		<nav id="sidebar"><!--sidebar-->
+			<div class="sidebar-header p-2">
+				<div id="dismiss">
+					<i class="fas fa-arrow-circle-left ml-0"></i>   
+				</div>
+				<img src="../images/ssc-logo.jpg" width="200">
 			</div>
-		<div class="text-center">
+			<ul class="list-unstyled components">
+				<li class="active">
+					<a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Join the fun!</a>
+					<ul class="collapse list-unstyled" id="homeSubmenu">
+						<li><a href="#">Compete and Create</a></li>
+						<li><a href="#">Watch and Vote</a></li>
+					</ul>
+				</li>
+				{{!-- <li><a href="#">Browse Previous Stories</a></li> --}}
+				{{!-- <li><a href="#">About</a></li>
+				<li><a href="#">Contact Us</a></li> --}}
+			</ul>
+		</nav><!--sidebar-->
 			{{{ body }}}
-		</div>
-	</div>
+			
+	</div> <!--wrapper--->
+	<div class="overlay"></div>
 </body>
 
 </html>

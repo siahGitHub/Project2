@@ -8,9 +8,9 @@ exports.signup = function(req, res) {
 
 exports.signin = function(req, res) {
  
-    //res.render('signin');
+        //res.render('signin');
     res.render("signin", { login_errors: req.session.messages || [] });
-req.session.messages = [];
+    req.session.messages = [];
  
 };
 
